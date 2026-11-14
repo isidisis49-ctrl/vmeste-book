@@ -69,6 +69,6 @@ It is natural to want to understand the value of months of work. A preliminary f
 - [VK](https://vk.com/club243081835)
 - [MAX](https://web.max.ru/772602012)
 
-**[Support Our Projects](https://t.tb.ru/pm_short/ArEtM5VCm8v)**
+**[Support Our Projects](https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/)**
 
 Futuristic illustrations are conceptual. Robots and the industrial AI concept are not presented as completed products.
