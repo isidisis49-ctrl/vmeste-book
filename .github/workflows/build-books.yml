@@ -8,6 +8,9 @@ on:
       - 'tools/build_pdfs.py'
       - '.github/workflows/build-books.yml'
   workflow_dispatch:
+concurrency:
+  group: vmeste-book-pdf-publish
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -37,5 +40,6 @@ jobs:
           git add downloads/VMESTE_Book_*.pdf
           if ! git diff --cached --quiet; then
             git commit -m "Publish PDF editions: RU EN DE FR"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
