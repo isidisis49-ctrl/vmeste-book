@@ -32,11 +32,13 @@ title=ParagraphStyle("title",parent=base,fontName="DVS-Bold",fontSize=24,leading
 sub=ParagraphStyle("sub",parent=base,fontSize=11,leading=19,alignment=TA_CENTER,textColor=LIGHT)
 small=ParagraphStyle("small",parent=base,fontSize=8,leading=13,textColor=LIGHT)
 boldbody=ParagraphStyle("bold",parent=base,fontName="DVS-Bold")
-banner_png=cairosvg.svg2png(bytestring=(ROOT/"assets/vmeste-banner.svg").read_bytes(),output_width=1200)
-def art(width=17*cm):
-    im=Image(io.BytesIO(banner_png))
-    im.drawWidth=width
-    im.drawHeight=width*420/1200
+ARTWORK = ["community", "ai", "tashi", "heat", "tools", "robot"]
+def art(name="community", width=16.3*cm):
+    source = ROOT/"assets"/"illustrations"/(name+".svg")
+    data = cairosvg.svg2png(bytestring=source.read_bytes(), output_width=1350)
+    im = Image(io.BytesIO(data))
+    im.drawWidth = width
+    im.drawHeight = width*360/900
     return im
 def inline(text):
     # Convert Markdown links to ReportLab links without injecting untrusted tags.
@@ -70,7 +72,7 @@ for lang in ("RU","EN","DE","FR"):
     doc=SimpleDocTemplate(str(fname),pagesize=A4,
         leftMargin=1.8*cm,rightMargin=1.8*cm,topMargin=2*cm,bottomMargin=2.1*cm,
         title=name,author="VMESTE",subject="Open illustrated technology book series")
-    story=[Spacer(1,1.4*cm),art(),Spacer(1,1.1*cm),
+    story=[Spacer(1,1.4*cm),art("community"),Spacer(1,1.1*cm),
            Paragraph(inline(name),title),Spacer(1,.6*cm),
            Paragraph("RU · EN · DE · FR",sub),Spacer(1,1.5*cm),
            Paragraph('<link href="https://xn--b1aga0a0ag.site/" color="#12686D"><u>vmeste.site</u></link>',sub),
@@ -90,8 +92,9 @@ for lang in ("RU","EN","DE","FR"):
             flush()
             if chapter:story.append(Spacer(1, .65*cm))
             story.append(Paragraph(inline(line[3:]),heading))
-            if chapter in (2,5,8):
-                story.append(art(15.5*cm))
+            illustrations = {2:"community", 3:"ai", 4:"tashi", 5:"heat", 6:"tools", 7:"ai", 8:"robot", 9:"tools"}
+            if chapter in illustrations:
+                story.append(art(illustrations[chapter], 15.5*cm))
                 story.append(Spacer(1,.35*cm))
             chapter+=1
         elif line.startswith("- "):
