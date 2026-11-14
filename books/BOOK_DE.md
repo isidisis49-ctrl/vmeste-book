@@ -69,6 +69,6 @@ Wer viel Zeit in ein Projekt investiert, möchte seinen Wert kennen. Als grobe O
 - [VK](https://vk.com/club243081835)
 - [MAX](https://web.max.ru/772602012)
 
-**[Unsere Projekte unterstützen](https://t.tb.ru/pm_short/ArEtM5VCm8v)**
+**[Unsere Projekte unterstützen](https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/)**
 
 Die Zukunftsbilder sind künstlerische Konzepte. Roboter und industrielle KI werden nicht als fertige Produkte dargestellt.
