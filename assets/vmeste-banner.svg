@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-label="VMESTE technology book series">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0A2340"/><stop offset=".55" stop-color="#0C5460"/><stop offset="1" stop-color="#0B243F"/></linearGradient><radialGradient id="glow"><stop stop-color="#5DE6DD" stop-opacity=".35"/><stop offset="1" stop-color="#5DE6DD" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="420" fill="url(#bg)"/><circle cx="860" cy="170" r="270" fill="url(#glow)"/>
+<g opacity=".28" stroke="#90F1E4" stroke-width="2"><path d="M630 85 L764 155 L889 74 L1005 169 L1110 85M680 312 L822 270 L974 337 L1132 257M764 155 L822 270 M1005 169 L974 337" fill="none"/><g fill="#9FF8EB"><circle cx="630" cy="85" r="7"/><circle cx="764" cy="155" r="8"/><circle cx="889" cy="74" r="7"/><circle cx="1005" cy="169" r="8"/><circle cx="1110" cy="85" r="7"/><circle cx="680" cy="312" r="7"/><circle cx="822" cy="270" r="7"/><circle cx="974" cy="337" r="7"/><circle cx="1132" cy="257" r="7"/></g></g>
+<g transform="translate(880 165)"><rect x="-75" y="-70" width="150" height="133" rx="36" fill="#F3F9FC" stroke="#77D9DE" stroke-width="7"/><rect x="-50" y="-31" width="100" height="65" rx="24" fill="#123D56"/><ellipse cx="-22" cy="0" rx="12" ry="15" fill="#42E8DE"/><ellipse cx="22" cy="0" rx="12" ry="15" fill="#42E8DE"/><path d="M-21 22 Q0 34 21 22" stroke="#42E8DE" stroke-width="5" fill="none"/><path d="M0 -70 V-91" stroke="#F3F9FC" stroke-width="6"/><circle cx="0" cy="-100" r="11" fill="#FFAF46"/></g>
+<rect x="75" y="77" width="5" height="268" rx="2" fill="#FF9A3D"/>
+<text x="105" y="145" font-family="DejaVu Sans,Arial,sans-serif" font-size="70" font-weight="bold" fill="#FFF">ВМЕСТЕ</text>
+<text x="109" y="195" font-family="DejaVu Sans,Arial,sans-serif" font-size="25" fill="#BDE5E5">От одного сайта — к миру технологий</text>
+<text x="109" y="258" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" fill="#FFF">ИИ · РОБОТЫ · ИНЖЕНЕРИЯ · ПОМОЩЬ</text>
+<text x="109" y="323" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" fill="#A7DAD9">RU  /  EN  /  DE  /  FR</text>
+<circle cx="1102" cy="337" r="14" fill="#FF9A3D"/></svg>
