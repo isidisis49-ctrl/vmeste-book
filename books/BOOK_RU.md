@@ -69,6 +69,6 @@
 - [VK](https://vk.com/club243081835)
 - [MAX](https://web.max.ru/772602012)
 
-**[Поддержать наши проекты](https://t.tb.ru/pm_short/ArEtM5VCm8v)**
+**[Поддержать наши проекты](https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/)**
 
 Художественные иллюстрации показывают возможности будущего. Роботы и промышленная система не представлены как готовые продукты.
