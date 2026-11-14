@@ -1,0 +1,33 @@
+{
+  "status": "review only; no release created",
+  "files": [
+    {
+      "language": "RU",
+      "file": "VMESTE_People_AI_Engineering_RU_REVIEW.pdf",
+      "pages": 9,
+      "bytes": 3969971,
+      "sha256": "f63adfd79d058a08d56c94d6d7ef4cb8e34934f856bf6accfaae35ec341fdd85"
+    },
+    {
+      "language": "EN",
+      "file": "VMESTE_People_AI_Engineering_EN_REVIEW.pdf",
+      "pages": 9,
+      "bytes": 3953667,
+      "sha256": "e0bc2bbc05c6205a5ec5f4ca8db9300fafbf03100cc17d0c751c594447c32a9e"
+    },
+    {
+      "language": "DE",
+      "file": "VMESTE_People_AI_Engineering_DE_REVIEW.pdf",
+      "pages": 9,
+      "bytes": 3962527,
+      "sha256": "4be93af7404778b713325edced1908e0d401483826f6bf59706d89c037e9d401"
+    },
+    {
+      "language": "FR",
+      "file": "VMESTE_People_AI_Engineering_FR_REVIEW.pdf",
+      "pages": 9,
+      "bytes": 3963246,
+      "sha256": "019aa5c38962147403c8dcd703ed7f04189817fb4c609619edb28a8e4432909a"
+    }
+  ]
+}

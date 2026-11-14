@@ -1,0 +1,218 @@
+{
+  "RU": {
+    "title": "ВМЕСТЕ. Идеи, которые помогают людям",
+    "subtitle": "Люди, искусственный интеллект и инженерные решения",
+    "intro": "Продолжение иллюстрированной серии. От повседневной просьбы о помощи — к локальному ИИ, инженерным моделям и ответственному применению технологий на предприятии.",
+    "status": "Редакционная версия для просмотра. Художественное начало и промышленные примеры вымышлены. Возможности прототипов, планы и производственные внедрения не приравниваются друг к другу. Иллюстрации созданы с помощью ИИ.",
+    "chapters": [
+      [
+        "Есть к кому обратиться",
+        "story",
+        "В тот месяц у молодого человека всё пошло наперекосяк. Сломался рабочий ноутбук, понадобилось искать другую квартиру, а перед важной встречей под раковиной появилась вода. Телефон был полон контактов, но он долго не мог решить, кому написать. Начинал сообщение, стирал и снова смотрел на экран.\n\nСоседка спросила, что случилось. Он хотел ответить: «Уже разбираюсь». Вместо этого написал: «Если честно, не знаю, с чего начать». Она помогла разделить заботы: сначала встреча, потом фотографии неисправности и понятное описание того, какая помощь нужна. После этого искать мастера стало проще. Он уточнил стоимость диагностики и отдельно попросил сохранить файлы.\n\nЧерез несколько дней он сам постучал к соседке: ей нужны были вторые руки, чтобы закрепить полку. Пока они пили чай, выяснилось, что он умеет оформлять документы, а ей как раз нужна такая работа. Позже, уже в новой квартире, он прочитал чужую просьбу и ответил: «Кажется, я могу помочь».\n\nЭто сокращённая художественная история. Она задаёт вопрос для всей книги: как сделать первый шаг к помощи проще, не подменив человеческое участие красивым интерфейсом?"
+      ],
+      [
+        "ВЕСТА: помочь человеку объяснить задачу",
+        "local-ai",
+        "За короткой фразой «у меня ничего не работает» могут скрываться разные задачи. Уточнить симптомы, сохранить важные файлы, договориться о времени — всё это приходится превращать в понятное описание. Здесь полезен помощник, который умеет задавать вопросы и предлагать черновик.\n\nТаково направление ВЕСТЫ. Локальные разработки связывают формулирование заявки с поиском по справочному каталогу. Предложенный текст должен оставаться редактируемым. Публикация, выбор исполнителя и отправка сообщений требуют отдельного действия пользователя. Хорошо написанный черновик ещё не означает, что работа выполнена.\n\nСправочная карточка организации не становится аккаунтом исполнителя. Помощник не вправе выдумывать доступность, цену, рейтинг или условия выезда. Если сведений мало, полезнее сказать об этом и попросить уточнение. При показе справочной карточки сохраняется предупреждение: участие во «Вместе» и доступность не подтверждены.\n\nКачество такой системы проверяют на конкретных ситуациях: верно ли определена услуга, не потерялось ли ограничение, не показаны ли запрещённые записи. Ответ оценивают по точности и пользе, а не по уверенности тона."
+      ],
+      [
+        "ТАШИ: рабочее место на своём компьютере",
+        "local-ai",
+        "Помощь бывает нужна и без открытого сайта. На компьютере лежат инструкции, письма, чертежи и незаконченные тексты. Найти нужный документ иногда труднее, чем написать новый. Локальный помощник может стать удобной точкой входа к разрешённым материалам.\n\nТАШИ развивается как отдельный проект. Направления работы включают локальный ИИ, голос, документы, файлы и запуск программ. Наличие пункта меню или экспериментального модуля не доказывает, что любая операция уже надёжно работает на каждом компьютере. Конкретную сборку необходимо проверять на её устройстве и с её моделями.\n\nПользователь выбирает доступные папки. Чтение не даёт права автоматически перезаписывать документы. Удаление, выполнение команд и другие действия с последствиями требуют отдельного подтверждения. Работа без интернета возможна для установленных локальных компонентов; загрузка моделей и внешние источники имеют собственные условия.\n\nПрактический пример — поиск инструкции и подготовка списка вопросов к ней. Ответ должен показывать, из какого документа взяты сведения. Если подходящего источника нет, помощник не должен выдавать догадку за содержимое файла."
+      ],
+      [
+        "Инженерная идея проходит проверку",
+        "engineering",
+        "На экране схема может выглядеть законченной задолго до того, как появится устройство. Модель помогает исследовать идею: сравнить режимы, заметить противоречие, подобрать вопросы для испытаний. Но цветной индикатор температуры сам по себе ничего не измеряет.\n\nВ материалах серии показан локальный симулятор отопления. Его значения рассчитывает программа. По такой модели можно обсуждать поведение зон и реакцию на изменение условий, но нельзя подтверждать фактическую температуру здания или экономию энергии. Для этого нужны реальные измерения, пригодные приборы и согласованная методика.\n\nПлата, подготовленная в инженерной программе, также проходит путь от схемы до проверки компонентов, изготовления, испытаний и документации. Художественное изображение робота показывает замысел, а не собранное изделие. Эта разница важна и читателю, и будущему заказчику.\n\nУспех начинается с проверяемого вопроса. Например: правильно ли программа реагирует на потерю датчика? Что увидит оператор при ошибке? Как вернуть прежнюю версию? Ответы превращают интересный опыт в основу дальнейшей инженерной работы."
+      ],
+      [
+        "Одна неисправность, несколько служб",
+        "robotics",
+        "Рассмотрим условный промышленный пример. Сотрудник обнаруживает отказ насоса и фиксирует событие по действующему порядку. Начальнику смены важно знать, что происходит сейчас. Руководителю участка нужны ответственные и состояние работ. Главному инженеру — подтверждённые причины и технические риски. Директору — последствия, сроки и решения, которые требуют его участия.\n\nПомощник мог бы собрать разрешённые сведения: паспорт оборудования, историю ремонтов, утверждённую инструкцию и данные о наличии детали. Затем подготовить проект задания или краткую сводку. У каждого утверждения должны быть источник, время актуальности и понятный статус: подтверждено, предполагается или ещё проверяется.\n\nЕсли запасной части нет, система может помочь подготовить запрос. Выбор допустимого аналога остаётся за квалифицированным специалистом. Аварийные действия выполняются по утверждённым регламентам. Нейросеть не должна придумывать опасные инструкции или подавать управляющие команды оборудованию.\n\nПолезный итог такого сценария — сохранённая история: кто сообщил о событии, кто проверил причину, какое решение согласовали и чем завершилась работа. Это концепция возможного применения, а не сообщение о внедрении на каком-либо заводе."
+      ],
+      [
+        "От статьи к ответственному пилоту",
+        "engineering",
+        "Для предприятия разумно начать с ограниченного участка: поиск по утверждённым документам, проекты ремонтных заявок и сводка событий. Существующий портал сохраняет управление пользователями. Помощник получает минимально необходимые сведения через согласованные интерфейсы. Социальный сайт «Вместе» не должен получать доступ к производственным данным.\n\nПервый пилот можно ограничить чтением. Локальное размещение позволяет организовать обработку без передачи документов публичной модели, однако само по себе не обеспечивает безопасность. Нужны права доступа, журналирование, резервное копирование и проверка того, какие данные система читает и сохраняет.\n\nПроверять пользу следует на заранее выбранных вопросах. Сколько времени занимает поиск? Правильно ли указан источник? Не видит ли сотрудник чужие документы? Не выдумывает ли модель причину отказа? Можно ли восстановиться после сбоя? Число пользователей и оборудование выбирают по реальной нагрузке, а не по красивой презентации.\n\nПосле пилота специалисты решают, что доработать и стоит ли расширять систему. Опыт сотрудников превращается в проверенные записи, а ИИ помогает находить и оформлять их. Инженерные решения, допуски и ответственность остаются за людьми."
+      ]
+    ],
+    "closing": "Полный художественный рассказ находится рядом с этой книгой. Эта часть серии соединяет его тему с ИИ и инженерией: технологии полезны тогда, когда помогают людям действовать понятнее и надёжнее.",
+    "lang": "RU",
+    "review": "ДЛЯ ПРОСМОТРА",
+    "ai_caption": "Художественная иллюстрация ИИ. Не фотография работающего оборудования.",
+    "screenshot_title": "Модель и измерение — разные вещи",
+    "screen_note": "Реальный снимок локального симулятора отопления из предыдущей книги. Температуры рассчитаны программой, а не измерены датчиками. Иностранные подписи локализованы редакционно; это не подтверждение выпуска многоязычного продукта.",
+    "links_title": "Продолжим вместе",
+    "links_note": "Ссылки ведут на предоставленные автором ресурсы. Возможности и доступность ботов могут различаться. Поддержка добровольна; перед переводом проверьте получателя и условия банка.",
+    "link_labels": [
+      "Сайт «Вместе»",
+      "Библиотека и исходники",
+      "ВКонтакте",
+      "MAX",
+      "Telegram",
+      "Поддержать проекты"
+    ]
+  },
+  "EN": {
+    "title": "VMESTE. Ideas That Help People",
+    "subtitle": "People, artificial intelligence and engineering ideas",
+    "intro": "A continuation of the illustrated series. From an everyday request for help to local AI, engineering models and responsible uses of technology in industry.",
+    "status": "Editorial review edition. The opening story and industrial examples are fictional. Prototype capabilities, plans and production deployments are different stages. Illustrations were created with AI.",
+    "chapters": [
+      [
+        "Someone to turn to",
+        "story",
+        "That month, everything seemed to go wrong for a young man. His work laptop broke, he had to find another flat, and water appeared beneath the sink just before an important meeting. His phone was full of contacts, but he could not decide whom to ask. He began a message, deleted it, and stared at the screen again.\n\nA neighbour asked what had happened. He wanted to say, “I am sorting it out.” Instead, he wrote, “Honestly, I do not know where to start.” She helped him separate the problems: first the meeting, then photographs of the fault and a clear description of the help he needed. Finding a repairer became easier. He checked the diagnostic fee and specifically asked for his files to be preserved.\n\nA few days later, he knocked on her door: she needed another pair of hands to fit a shelf. Over tea, they discovered that he knew how to lay out documents, and she needed exactly that work. Later, in his new flat, he read someone else's request and replied, “I think I can help.”\n\nThis abridged fictional story asks a question for the whole book: how can technology make the first request easier without replacing human involvement with an attractive interface?"
+      ],
+      [
+        "VESTA: helping people explain the task",
+        "local-ai",
+        "“Nothing works” can conceal several different needs. Describing symptoms, preserving important files and arranging a time all have to become a clear request. An assistant that asks useful questions and suggests a draft can help with this step.\n\nThat is the direction of VESTA. Local development connects request drafting with a reference catalogue. Suggested wording must remain editable. Publishing, choosing a provider and sending a message require a separate user action. A well-written draft does not mean that the job has been done.\n\nA reference listing does not become a registered provider account. The assistant must not invent availability, prices, ratings or travel arrangements. When information is insufficient, it should say so and request clarification. Reference listings retain a warning that participation in VMESTE and availability are unconfirmed.\n\nQuality is assessed through specific situations: was the service identified correctly, was an important restriction preserved, and were excluded records withheld? The value of an answer lies in its accuracy and usefulness, not in how confident it sounds."
+      ],
+      [
+        "TASHI: a workspace on your own computer",
+        "local-ai",
+        "People also need help without opening a website. Instructions, correspondence, drawings and unfinished texts accumulate on a computer. Finding the right document can take longer than writing a new one. A local assistant could provide a convenient entry point to authorised materials.\n\nTASHI is being developed as a separate project. Its areas of work include local AI, voice, documents, files and launching applications. A menu item or experimental module does not establish that every operation works reliably on every computer. Each build needs testing with its actual device and models.\n\nThe user chooses accessible folders. Permission to read does not automatically permit overwriting. Deletion, command execution and other consequential actions require separate confirmation. Installed local components may operate offline; downloading models and consulting external sources have their own requirements.\n\nA practical example is finding an instruction manual and preparing questions about it. The answer should identify the document behind each claim. If there is no suitable source, the assistant must not present a guess as something found in a file."
+      ],
+      [
+        "An engineering idea has to be tested",
+        "engineering",
+        "A diagram can look complete long before a device exists. A model helps investigate an idea: compare operating modes, expose contradictions and develop questions for testing. A coloured temperature indicator does not, by itself, measure anything.\n\nThis series includes a local heating simulator. Its values are calculated by software. Such a model can support discussion of zones and responses to changing conditions, but it cannot establish actual building temperatures or energy savings. Those claims require real measurements, suitable instruments and an agreed method.\n\nA circuit board prepared in engineering software must also pass through component checks, manufacturing, testing and documentation. An artistic robot image depicts an idea rather than an assembled machine. That distinction matters to readers and prospective customers alike.\n\nProgress begins with a question that can be checked. Does the software react correctly when a sensor is lost? What does an operator see when something fails? How can the previous version be restored? Answers turn an interesting experiment into a foundation for further engineering work."
+      ],
+      [
+        "One fault, several teams",
+        "robotics",
+        "Consider a hypothetical industrial example. A worker discovers a pump failure and records it through the established procedure. The shift supervisor needs the immediate situation. The area manager needs responsibility assignments and progress. The chief engineer needs confirmed causes and technical risks. The director needs the consequences, expected timings and decisions requiring management attention.\n\nAn assistant could assemble authorised information: the equipment manual, repair history, an approved procedure and parts availability. It could then draft a work request or a concise summary. Each claim should carry its source, currency and a clear status: confirmed, suspected or still being checked.\n\nIf a spare part is unavailable, the system may help prepare an enquiry. A qualified specialist must approve any substitute. Emergency actions follow approved procedures. A language model must not invent hazardous instructions or send control commands to equipment.\n\nA useful outcome is a preserved history: who reported the event, who checked the cause, what decision was approved and how the work ended. This is a concept for possible use, not a claim of deployment at any factory."
+      ],
+      [
+        "From an article to a responsible pilot",
+        "engineering",
+        "An organisation can begin with a limited scope: searching approved documents, drafting maintenance requests and summarising events. Its existing portal retains user management. The assistant receives only the information it needs through authorised interfaces. The public VMESTE website must not gain access to industrial data.\n\nThe first pilot can be read-only. Local hosting can support processing without sending documents to a public model, but location alone does not ensure security. Access controls, audit records, backups and checks of what the system reads and stores are still necessary.\n\nBenefits should be assessed against questions chosen beforehand. How long does retrieval take? Is the correct source cited? Can a worker see someone else's restricted documents? Does the model invent the cause of a fault? Can service be restored after a failure? Hardware and user capacity must follow measured workloads rather than a compelling presentation.\n\nAfter the pilot, specialists decide what to improve and whether to expand. Employees' experience becomes reviewed knowledge, while AI helps retrieve and organise it. Engineering decisions, work authorisations and responsibility remain with people."
+      ]
+    ],
+    "closing": "The complete fictional story is available alongside this book in Russian. This volume connects its theme with AI and engineering: useful technology helps people act with greater clarity and reliability.",
+    "lang": "EN",
+    "review": "FOR REVIEW",
+    "ai_caption": "AI-generated illustration. Not a photograph of operating equipment.",
+    "screenshot_title": "A model is not a measurement",
+    "screen_note": "An actual local heating-simulator capture from the preceding book. Temperatures are calculated, not measured by sensors. Interface labels were localised for the edition; this does not establish a released multilingual product.",
+    "links_title": "Let us continue together",
+    "links_note": "Links lead to resources supplied by the author. Bot capabilities and availability may differ. Support is voluntary; check the recipient and bank terms before transferring money.",
+    "link_labels": [
+      "VMESTE website",
+      "Books and source materials",
+      "VK",
+      "MAX",
+      "Telegram",
+      "Support the projects"
+    ]
+  },
+  "DE": {
+    "title": "VMESTE. Ideen, die Menschen helfen",
+    "subtitle": "Menschen, künstliche Intelligenz und technische Ideen",
+    "intro": "Eine Fortsetzung der illustrierten Reihe. Von der alltäglichen Bitte um Hilfe zu lokaler KI, technischen Modellen und verantwortungsvollen Anwendungen in Unternehmen.",
+    "status": "Redaktionelle Prüffassung. Die Einstiegsgeschichte und die industriellen Beispiele sind erfunden. Prototypen, Vorhaben und produktive Einsätze sind unterschiedliche Entwicklungsstände. Die Illustrationen wurden mit KI erstellt.",
+    "chapters": [
+      [
+        "Jemand, an den man sich wenden kann",
+        "story",
+        "In jenem Monat ging für einen jungen Mann alles schief. Sein Arbeitslaptop fiel aus, er musste eine andere Wohnung suchen, und kurz vor einem wichtigen Gespräch stand Wasser unter der Spüle. Sein Telefon war voller Kontakte. Trotzdem wusste er nicht, wen er fragen sollte. Er begann eine Nachricht, löschte sie und blickte wieder auf den Bildschirm.\n\nEine Nachbarin fragte, was passiert sei. Er wollte schreiben: „Ich kümmere mich schon darum.“ Stattdessen schrieb er: „Ehrlich gesagt weiß ich nicht, wo ich anfangen soll.“ Sie half ihm, die Probleme zu ordnen: zuerst das Gespräch, dann Fotos des Defekts und eine verständliche Beschreibung der benötigten Hilfe. So wurde die Suche nach einem Fachmann einfacher. Er klärte die Diagnosekosten und bat ausdrücklich darum, seine Dateien zu erhalten.\n\nEinige Tage später klopfte er selbst bei ihr: Zum Anbringen eines Regals brauchte sie ein zweites Paar Hände. Beim Tee stellte sich heraus, dass er Dokumente gestalten konnte und sie genau diese Unterstützung suchte. Später las er in seiner neuen Wohnung die Anfrage eines anderen Menschen und antwortete: „Ich glaube, ich kann helfen.“\n\nDiese gekürzte, erfundene Geschichte stellt die Leitfrage des Buches: Wie erleichtert Technik die erste Bitte, ohne menschliche Anteilnahme durch eine schöne Oberfläche zu ersetzen?"
+      ],
+      [
+        "VESTA: eine Aufgabe verständlich beschreiben",
+        "local-ai",
+        "Hinter dem Satz „Nichts funktioniert“ können sehr unterschiedliche Aufgaben stecken. Symptome beschreiben, wichtige Dateien erhalten und einen Termin vereinbaren: Daraus muss eine verständliche Anfrage werden. Ein Assistent, der sinnvolle Rückfragen stellt und einen Entwurf vorschlägt, kann dabei helfen.\n\nIn diese Richtung entwickelt sich VESTA. Lokale Entwicklungsarbeiten verbinden das Formulieren einer Anfrage mit einem Referenzkatalog. Der vorgeschlagene Text muss bearbeitbar bleiben. Veröffentlichen, einen Anbieter auswählen und Nachrichten versenden erfordern jeweils eine eigene Handlung des Nutzers. Ein guter Entwurf bedeutet noch nicht, dass die Arbeit erledigt ist.\n\nEin Referenzeintrag wird nicht zum registrierten Anbieterkonto. Der Assistent darf weder Verfügbarkeit noch Preise, Bewertungen oder Anfahrtsbedingungen erfinden. Fehlen Angaben, sollte er das offen sagen und nachfragen. Referenzeinträge behalten den Hinweis, dass Teilnahme an VMESTE und Verfügbarkeit nicht bestätigt sind.\n\nGeprüft wird anhand konkreter Situationen: Wurde die richtige Leistung erkannt? Blieb eine wichtige Einschränkung erhalten? Wurden ausgeschlossene Einträge zurückgehalten? Maßgeblich sind Genauigkeit und Nutzen einer Antwort, nicht ihr selbstbewusster Ton."
+      ],
+      [
+        "TASHI: ein Arbeitsplatz auf dem eigenen Rechner",
+        "local-ai",
+        "Unterstützung wird auch ohne geöffnete Website gebraucht. Auf einem Rechner sammeln sich Anleitungen, Briefe, Zeichnungen und unfertige Texte. Das passende Dokument zu finden dauert manchmal länger, als ein neues zu schreiben. Ein lokaler Assistent könnte den Zugang zu freigegebenen Materialien erleichtern.\n\nTASHI wird als eigenständiges Projekt entwickelt. Zu den Arbeitsrichtungen gehören lokale KI, Sprache, Dokumente, Dateien und das Öffnen von Programmen. Ein Menüpunkt oder Versuchsmodul beweist nicht, dass jeder Vorgang auf jedem Rechner zuverlässig funktioniert. Jede Version muss mit dem jeweiligen Gerät und seinen Modellen geprüft werden.\n\nDer Nutzer bestimmt die zugänglichen Ordner. Eine Leseberechtigung erlaubt nicht automatisch das Überschreiben von Dokumenten. Löschen, Befehlsausführung und andere folgenreiche Vorgänge verlangen eine gesonderte Bestätigung. Installierte lokale Komponenten können offline arbeiten; Modelldownloads und externe Quellen haben eigene Voraussetzungen.\n\nEin Beispiel ist das Auffinden einer Anleitung und das Vorbereiten von Fragen dazu. Die Antwort sollte das zugrunde liegende Dokument nennen. Gibt es keine geeignete Quelle, darf der Assistent eine Vermutung nicht als Dateiinhalt ausgeben."
+      ],
+      [
+        "Eine technische Idee muss sich bewähren",
+        "engineering",
+        "Ein Plan kann auf dem Bildschirm fertig aussehen, lange bevor ein Gerät existiert. Ein Modell hilft, Betriebsweisen zu vergleichen, Widersprüche zu erkennen und Prüfungen vorzubereiten. Eine farbige Temperaturanzeige misst für sich genommen jedoch nichts.\n\nDie Reihe zeigt einen lokalen Heizungssimulator. Seine Werte berechnet die Software. Mit einem solchen Modell lassen sich Zonen und Reaktionen auf geänderte Bedingungen untersuchen. Tatsächliche Gebäudetemperaturen oder Energieeinsparungen lassen sich damit nicht nachweisen. Dafür braucht es reale Messungen, geeignete Instrumente und ein abgestimmtes Verfahren.\n\nAuch eine in einer Entwicklungsumgebung entworfene Leiterplatte benötigt Bauteilprüfung, Fertigung, Tests und Dokumentation. Eine künstlerische Roboterdarstellung zeigt eine Idee, kein gebautes Gerät. Dieser Unterschied ist für Leser und mögliche Auftraggeber gleichermaßen wichtig.\n\nFortschritt beginnt mit einer überprüfbaren Frage. Reagiert die Software richtig auf einen ausgefallenen Sensor? Was sieht der Bediener bei einem Fehler? Wie lässt sich die vorherige Version wiederherstellen? Solche Antworten machen aus einem interessanten Versuch eine Grundlage für weitere technische Arbeit."
+      ],
+      [
+        "Eine Störung, mehrere Abteilungen",
+        "robotics",
+        "Betrachten wir ein erfundenes industrielles Beispiel. Ein Mitarbeiter bemerkt den Ausfall einer Pumpe und erfasst das Ereignis nach dem geltenden Verfahren. Die Schichtleitung benötigt die aktuelle Lage. Die Bereichsleitung braucht Zuständigkeiten und Arbeitsstände. Die technische Leitung benötigt bestätigte Ursachen und Risiken. Die Geschäftsführung braucht Folgen, Termine und Entscheidungen, die ihre Beteiligung erfordern.\n\nEin Assistent könnte freigegebene Angaben zusammenstellen: Betriebsanleitung, Reparaturhistorie, genehmigte Arbeitsanweisung und Ersatzteilbestand. Anschließend könnte er einen Arbeitsauftrag oder eine kurze Übersicht entwerfen. Jede Aussage sollte Quelle, Aktualität und Status erkennen lassen: bestätigt, vermutet oder noch in Prüfung.\n\nFehlt ein Ersatzteil, kann das System bei einer Anfrage helfen. Einen geeigneten Ersatz muss eine qualifizierte Fachkraft freigeben. Maßnahmen bei Notfällen folgen den genehmigten Vorschriften. Ein Sprachmodell darf weder gefährliche Anweisungen erfinden noch Steuerbefehle an Anlagen senden.\n\nEin sinnvoller Ertrag ist eine nachvollziehbare Historie: Wer meldete das Ereignis, wer prüfte die Ursache, welche Entscheidung wurde freigegeben und wie endete die Arbeit? Dies ist ein Anwendungskonzept und keine Behauptung über einen Einsatz in einem bestimmten Werk."
+      ],
+      [
+        "Vom Artikel zum verantwortungsvollen Pilotprojekt",
+        "engineering",
+        "Ein Unternehmen kann mit einem begrenzten Bereich beginnen: Suche in freigegebenen Dokumenten, Entwürfe für Instandhaltungsanfragen und Ereignisübersichten. Das vorhandene Portal behält die Benutzerverwaltung. Der Assistent erhält nur die nötigen Angaben über genehmigte Schnittstellen. Die öffentliche Website VMESTE darf keinen Zugang zu Produktionsdaten erhalten.\n\nDer erste Pilot kann auf lesenden Zugriff beschränkt bleiben. Lokaler Betrieb ermöglicht eine Verarbeitung ohne Übertragung an ein öffentliches Modell, gewährleistet allein aber keine Sicherheit. Zugriffsrechte, Protokollierung, Sicherungen sowie die Prüfung gelesener und gespeicherter Daten bleiben notwendig.\n\nDer Nutzen wird anhand vorher festgelegter Fragen bewertet. Wie lange dauert die Suche? Ist die richtige Quelle angegeben? Sieht jemand unberechtigt fremde Dokumente? Erfindet das Modell eine Störungsursache? Ist die Wiederherstellung nach einem Ausfall möglich? Hardware und Nutzerzahl richten sich nach gemessener Last, nicht nach einer überzeugenden Präsentation.\n\nNach dem Pilot entscheiden Fachleute über Verbesserungen und eine Erweiterung. Erfahrung wird zu geprüftem Wissen; KI hilft, es zu finden und aufzubereiten. Technische Entscheidungen, Arbeitsfreigaben und Verantwortung bleiben bei Menschen."
+      ]
+    ],
+    "closing": "Die vollständige erfundene Geschichte steht neben diesem Buch auf Russisch zur Verfügung. Dieser Band verbindet ihr Thema mit KI und Technik: Nützliche Technologien helfen Menschen, verständlicher und verlässlicher zu handeln.",
+    "lang": "DE",
+    "review": "ZUR DURCHSICHT",
+    "ai_caption": "KI-Illustration. Kein Foto einer betriebenen Anlage.",
+    "screenshot_title": "Ein Modell ist keine Messung",
+    "screen_note": "Echte Aufnahme des lokalen Heizungssimulators aus dem vorherigen Band. Temperaturen sind berechnet, nicht von Sensoren gemessen. Die Beschriftung wurde redaktionell lokalisiert; sie belegt keine veröffentlichte mehrsprachige Produktversion.",
+    "links_title": "Gemeinsam weitermachen",
+    "links_note": "Die Links führen zu vom Autor genannten Angeboten. Funktionen und Verfügbarkeit der Bots können abweichen. Unterstützung ist freiwillig; vor einer Überweisung Empfänger und Bankbedingungen prüfen.",
+    "link_labels": [
+      "VMESTE-Website",
+      "Bücher und Quellen",
+      "VK",
+      "MAX",
+      "Telegram",
+      "Projekte unterstützen"
+    ]
+  },
+  "FR": {
+    "title": "VMESTE. Des idées au service des personnes",
+    "subtitle": "Les personnes, l’intelligence artificielle et les idées techniques",
+    "intro": "Une suite à la collection illustrée. D’une demande d’aide quotidienne à l’IA locale, aux modèles techniques et aux usages responsables de la technologie en entreprise.",
+    "status": "Version de relecture éditoriale. Le récit initial et les exemples industriels sont fictifs. Prototypes, projets et déploiements opérationnels correspondent à des étapes différentes. Illustrations créées avec l’IA.",
+    "chapters": [
+      [
+        "Quelqu’un vers qui se tourner",
+        "story",
+        "Ce mois-là, tout semblait aller de travers pour un jeune homme. Son ordinateur de travail était tombé en panne, il devait trouver un autre logement et de l’eau était apparue sous l’évier juste avant un rendez-vous important. Son téléphone était plein de contacts, mais il ne savait pas à qui écrire. Il commençait un message, l’effaçait, puis regardait encore l’écran.\n\nUne voisine lui demanda ce qui s’était passé. Il voulut répondre : « Je m’en occupe. » Il écrivit plutôt : « Honnêtement, je ne sais pas par où commencer. » Elle l’aida à séparer les problèmes : d’abord le rendez-vous, puis des photos de la panne et une description précise de l’aide nécessaire. Trouver un réparateur devint plus simple. Il vérifia le prix du diagnostic et demanda expressément de préserver ses fichiers.\n\nQuelques jours plus tard, il frappa lui-même chez elle : il lui fallait une deuxième paire de mains pour fixer une étagère. Autour d’un thé, ils découvrirent qu’il savait mettre en page des documents et qu’elle cherchait justement ce service. Plus tard, dans son nouveau logement, il lut la demande d’une autre personne et répondit : « Je crois pouvoir vous aider. »\n\nCe récit fictif abrégé pose la question du livre : comment faciliter la première demande sans remplacer la présence humaine par une belle interface ?"
+      ],
+      [
+        "VESTA : aider à formuler le besoin",
+        "local-ai",
+        "« Plus rien ne fonctionne » peut recouvrir plusieurs besoins. Décrire les symptômes, préserver les fichiers importants et convenir d’un horaire doivent devenir une demande compréhensible. Un assistant qui pose les bonnes questions et propose un brouillon peut faciliter cette étape.\n\nC’est l’orientation de VESTA. Les développements locaux relient la rédaction des demandes à un catalogue de référence. Le texte proposé doit rester modifiable. Publier, choisir un prestataire et envoyer un message exigent chacun une action distincte de l’utilisateur. Un brouillon bien rédigé ne signifie pas que le travail a été effectué.\n\nUne fiche de référence ne devient pas un compte de prestataire inscrit. L’assistant ne doit inventer ni disponibilité, ni prix, ni note, ni conditions de déplacement. Lorsque les informations manquent, il doit le signaler et demander des précisions. Les fiches conservent l’avertissement que la participation à VMESTE et la disponibilité ne sont pas confirmées.\n\nLa qualité s’évalue sur des situations précises : le service a-t-il été identifié correctement ? Une restriction importante a-t-elle été conservée ? Les fiches exclues ont-elles été écartées ? Une réponse vaut par sa justesse et son utilité, pas par son assurance."
+      ],
+      [
+        "TASHI : un espace de travail sur son ordinateur",
+        "local-ai",
+        "On a aussi besoin d’aide sans ouvrir de site web. Notices, courriers, plans et textes inachevés s’accumulent sur l’ordinateur. Trouver le bon document prend parfois plus de temps qu’en écrire un nouveau. Un assistant local pourrait faciliter l’accès aux ressources autorisées.\n\nTASHI est développé comme un projet distinct. Ses axes de travail comprennent l’IA locale, la voix, les documents, les fichiers et l’ouverture de programmes. Une rubrique de menu ou un module expérimental ne prouve pas que chaque opération fonctionne sur tous les ordinateurs. Chaque version doit être testée avec la machine et les modèles concernés.\n\nL’utilisateur choisit les dossiers accessibles. Le droit de lecture n’autorise pas automatiquement l’écrasement des documents. Suppression, exécution de commandes et autres actions ayant des conséquences exigent une confirmation distincte. Les composants locaux installés peuvent fonctionner hors ligne ; le téléchargement des modèles et les sources externes ont leurs propres exigences.\n\nUn exemple concret consiste à retrouver une notice et à préparer des questions à son sujet. La réponse doit indiquer le document qui étaye les informations. En l’absence de source adaptée, l’assistant ne doit pas présenter une supposition comme le contenu d’un fichier."
+      ],
+      [
+        "Une idée technique doit être éprouvée",
+        "engineering",
+        "Un schéma peut sembler terminé bien avant qu’un appareil existe. Un modèle permet de comparer des régimes de fonctionnement, de relever des contradictions et de préparer des essais. Mais un indicateur de température coloré ne mesure rien à lui seul.\n\nLa collection présente un simulateur local de chauffage. Ses valeurs sont calculées par le logiciel. Ce modèle permet d’étudier les zones et leurs réactions aux changements de conditions. Il ne démontre ni les températures réelles d’un bâtiment ni des économies d’énergie. Cela exige des mesures réelles, des instruments adaptés et une méthode convenue.\n\nDe même, une carte électronique conçue dans un logiciel doit passer par la vérification des composants, la fabrication, les essais et la documentation. Une illustration artistique de robot représente une idée, pas une machine construite. Cette distinction compte pour le lecteur comme pour un client potentiel.\n\nLe progrès commence par une question vérifiable. Le logiciel réagit-il correctement à la perte d’un capteur ? Que voit l’opérateur en cas d’erreur ? Comment revenir à la version précédente ? Les réponses transforment une expérience intéressante en base pour poursuivre le travail technique."
+      ],
+      [
+        "Une panne, plusieurs services",
+        "robotics",
+        "Prenons un exemple industriel fictif. Un salarié constate la panne d’une pompe et l’enregistre selon la procédure en vigueur. Le responsable de quart a besoin de connaître la situation immédiate. Le responsable d’atelier doit connaître les responsables désignés et l’avancement. La direction technique a besoin de causes confirmées et de risques identifiés. La direction générale attend les conséquences, les délais et les décisions relevant de son autorité.\n\nUn assistant pourrait réunir les informations autorisées : notice de l’équipement, historique des réparations, procédure approuvée et disponibilité d’une pièce. Il pourrait ensuite préparer un projet d’ordre de travail ou une synthèse. Chaque affirmation devrait préciser sa source, sa date de validité et son statut : confirmé, supposé ou en cours de vérification.\n\nSi une pièce manque, le système peut aider à préparer une demande. Un spécialiste qualifié reste responsable de l’approbation d’une pièce de substitution. Les interventions d’urgence suivent les procédures approuvées. Un modèle de langage ne doit ni inventer des instructions dangereuses ni envoyer de commandes aux équipements.\n\nUn résultat utile est un historique traçable : qui a signalé l’événement, qui a vérifié la cause, quelle décision a été approuvée et comment le travail s’est terminé. Il s’agit d’un concept d’usage, pas d’un déploiement revendiqué dans une usine."
+      ],
+      [
+        "De l’article à un pilote responsable",
+        "engineering",
+        "Une entreprise peut commencer par un périmètre limité : recherche dans des documents approuvés, brouillons de demandes de maintenance et synthèses d’événements. Le portail existant conserve la gestion des utilisateurs. L’assistant reçoit uniquement les informations nécessaires par des interfaces autorisées. Le site public VMESTE ne doit pas accéder aux données industrielles.\n\nLe premier pilote peut rester en lecture seule. Un hébergement local permet d’envisager le traitement sans envoi vers un modèle public, mais ne garantit pas à lui seul la sécurité. Droits d’accès, journalisation, sauvegardes et vérification des données lues et conservées restent nécessaires.\n\nL’utilité s’évalue à partir de questions définies à l’avance. Combien de temps prend la recherche ? La bonne source est-elle citée ? Un salarié peut-il voir des documents qui lui sont interdits ? Le modèle invente-t-il la cause d’une panne ? Peut-on rétablir le service après un incident ? Le matériel et le nombre d’utilisateurs se dimensionnent selon la charge mesurée, pas selon une présentation séduisante.\n\nAprès le pilote, les spécialistes décident des améliorations et d’une éventuelle extension. L’expérience devient un savoir vérifié, que l’IA aide à retrouver et organiser. Les décisions techniques, les autorisations de travail et la responsabilité restent humaines."
+      ]
+    ],
+    "closing": "Le récit fictif complet est disponible en russe à côté de ce livre. Ce volume relie son thème à l’IA et à l’ingénierie : une technologie utile aide les personnes à agir avec plus de clarté et de fiabilité.",
+    "lang": "FR",
+    "review": "POUR RELECTURE",
+    "ai_caption": "Illustration créée par IA. Ce n’est pas une photographie d’équipement en service.",
+    "screenshot_title": "Un modèle n’est pas une mesure",
+    "screen_note": "Véritable capture du simulateur local de chauffage issue du livre précédent. Les températures sont calculées, pas mesurées par des capteurs. Les libellés ont été localisés pour l’édition ; cela ne prouve pas la publication d’un produit multilingue.",
+    "links_title": "Continuons ensemble",
+    "links_note": "Les liens mènent aux ressources indiquées par l’auteur. Les fonctions et la disponibilité des bots peuvent varier. Le soutien est facultatif ; vérifiez le destinataire et les conditions bancaires avant tout virement.",
+    "link_labels": [
+      "Site VMESTE",
+      "Livres et sources",
+      "VK",
+      "MAX",
+      "Telegram",
+      "Soutenir les projets"
+    ]
+  }
+}

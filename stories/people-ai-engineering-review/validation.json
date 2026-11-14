@@ -1,0 +1,649 @@
+{
+  "scope": "PDF content, layout, links, language markers and redaction checks; not independent linguistic review",
+  "summary": {
+    "PASS": 128,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "nine pages",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "nine bookmarks",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "PDF language",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "six exact links",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "page bounds",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "text layout bounds",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "no enterprise names or procurement details",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "language character check",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "nine pages",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "nine bookmarks",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "PDF language",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "six exact links",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "page bounds",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "text layout bounds",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "no enterprise names or procurement details",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "language character check",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "nine pages",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "nine bookmarks",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "PDF language",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "six exact links",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "page bounds",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "text layout bounds",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "no enterprise names or procurement details",
+      "result": "PASS"
+    },
+    {
+      "language": "DE",
+      "check": "language character check",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "nine pages",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "nine bookmarks",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "PDF language",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "six exact links",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "page bounds",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "text layout bounds",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "no enterprise names or procurement details",
+      "result": "PASS"
+    },
+    {
+      "language": "FR",
+      "check": "language character check",
+      "result": "PASS"
+    }
+  ]
+}
