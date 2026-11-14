@@ -1,0 +1,41 @@
+{
+  "artwork": [
+    {
+      "file": "assets/art/community.png",
+      "sha256": "c635498c8a202335e9876963663dc50843238a5d3c1b890b8ef5afaa26abc404",
+      "type": "AI-generated artistic concept",
+      "text_labels_intended": false,
+      "depicts_deployed_hardware": false
+    },
+    {
+      "file": "assets/art/cover-workshop.png",
+      "sha256": "1246f9825a2e94cbbdcc3b77e96f4537b1b73307e72a8735f42c21ee2c68ff5a",
+      "type": "AI-generated artistic concept",
+      "text_labels_intended": false,
+      "depicts_deployed_hardware": false
+    },
+    {
+      "file": "assets/art/engineering.png",
+      "sha256": "e9f911bd04adb948f5cad0a45655ff89b9caeee1677bbfffb6fe98f6dfff14e8",
+      "type": "AI-generated artistic concept",
+      "text_labels_intended": false,
+      "depicts_deployed_hardware": false
+    },
+    {
+      "file": "assets/art/local-ai.png",
+      "sha256": "6841e69bab77ee856d119e9ad39edad1f42c3d59f209e61978baebc14e303c10",
+      "type": "AI-generated artistic concept",
+      "text_labels_intended": false,
+      "depicts_deployed_hardware": false
+    },
+    {
+      "file": "assets/art/robotics.png",
+      "sha256": "fb13af67b4ddb5df282140dd335bde89ee6818ec5f6699bf69661549e72d3838",
+      "type": "AI-generated artistic concept",
+      "text_labels_intended": false,
+      "depicts_deployed_hardware": false
+    }
+  ],
+  "reference_pdf_sha256": "c86409274a5a5f4d8efbe053a3006c66643827bf7caaad64f6c0ad5364c174f8",
+  "reference_role": "visual reference supplied by the author; not published as independent evidence of deployed technology"
+}

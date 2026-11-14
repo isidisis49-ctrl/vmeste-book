@@ -1,0 +1,1554 @@
+{
+  "summary": {
+    "PASS": 239,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "check": "RU / 10 substantial pages",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / document language",
+      "status": "PASS",
+      "detail": "ru-RU"
+    },
+    {
+      "check": "RU / six exact external targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / no unsafe link targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / no replacement characters",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / original section 1 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / original section 2 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / original section 3 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / original section 4 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / original section 5 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / original section 6 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / original section 7 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / original section 8 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / original section 9 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / original section 10 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 1 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 1 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 1 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 1 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif"
+    },
+    {
+      "check": "RU / page 2 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 2 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 2 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 2 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "RU / page 3 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 3 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 3 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 3 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "RU / page 4 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 4 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 4 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 4 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "RU / page 5 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 5 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 5 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 5 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "RU / page 6 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 6 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 6 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 6 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "RU / page 7 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 7 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 7 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 7 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold"
+    },
+    {
+      "check": "RU / page 8 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 8 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 8 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 8 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold"
+    },
+    {
+      "check": "RU / page 9 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 9 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 9 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 9 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif"
+    },
+    {
+      "check": "RU / page 10 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 10 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 10 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "RU / page 10 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "EN / 10 substantial pages",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / document language",
+      "status": "PASS",
+      "detail": "en-GB"
+    },
+    {
+      "check": "EN / six exact external targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / no unsafe link targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / no replacement characters",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / no Cyrillic text or metadata",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / original section 1 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / original section 2 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / original section 3 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / original section 4 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / original section 5 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / original section 6 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / original section 7 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / original section 8 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / original section 9 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / original section 10 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 1 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 1 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 1 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 1 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif"
+    },
+    {
+      "check": "EN / page 2 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 2 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 2 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 2 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "EN / page 3 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 3 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 3 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 3 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "EN / page 4 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 4 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 4 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 4 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "EN / page 5 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 5 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 5 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 5 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "EN / page 6 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 6 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 6 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 6 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "EN / page 7 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 7 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 7 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 7 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold"
+    },
+    {
+      "check": "EN / page 8 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 8 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 8 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 8 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold"
+    },
+    {
+      "check": "EN / page 9 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 9 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 9 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 9 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif"
+    },
+    {
+      "check": "EN / page 10 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 10 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 10 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "EN / page 10 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "DE / 10 substantial pages",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / document language",
+      "status": "PASS",
+      "detail": "de-DE"
+    },
+    {
+      "check": "DE / six exact external targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / no unsafe link targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / no replacement characters",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / no Cyrillic text or metadata",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / original section 1 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / original section 2 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / original section 3 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / original section 4 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / original section 5 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / original section 6 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / original section 7 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / original section 8 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / original section 9 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / original section 10 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 1 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 1 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 1 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 1 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif"
+    },
+    {
+      "check": "DE / page 2 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 2 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 2 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 2 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "DE / page 3 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 3 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 3 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 3 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "DE / page 4 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 4 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 4 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 4 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "DE / page 5 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 5 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 5 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 5 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "DE / page 6 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 6 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 6 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 6 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "DE / page 7 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 7 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 7 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 7 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold"
+    },
+    {
+      "check": "DE / page 8 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 8 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 8 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 8 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold"
+    },
+    {
+      "check": "DE / page 9 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 9 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 9 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 9 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif"
+    },
+    {
+      "check": "DE / page 10 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 10 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 10 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "DE / page 10 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "FR / 10 substantial pages",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / document language",
+      "status": "PASS",
+      "detail": "fr-FR"
+    },
+    {
+      "check": "FR / six exact external targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / no unsafe link targets",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / no replacement characters",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / no Cyrillic text or metadata",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / original section 1 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / original section 2 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / original section 3 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / original section 4 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / original section 5 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / original section 6 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / original section 7 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / original section 8 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / original section 9 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / original section 10 retained",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 1 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 1 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 1 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 1 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif"
+    },
+    {
+      "check": "FR / page 2 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 2 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 2 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 2 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "FR / page 3 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 3 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 3 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 3 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "FR / page 4 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 4 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 4 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 4 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "FR / page 5 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 5 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 5 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 5 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "FR / page 6 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 6 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 6 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 6 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "FR / page 7 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 7 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 7 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 7 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold"
+    },
+    {
+      "check": "FR / page 8 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 8 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 8 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 8 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold"
+    },
+    {
+      "check": "FR / page 9 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 9 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 9 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 9 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif"
+    },
+    {
+      "check": "FR / page 10 text inside sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 10 readable narrative",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 10 not nearly empty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "FR / page 10 expected fonts",
+      "status": "PASS",
+      "detail": "DejaVuSans, DejaVuSans-Bold, DejaVuSerif, DejaVuSerif-Italic"
+    },
+    {
+      "check": "12 actual local screenshots",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "No Cyrillic left in foreign screenshot DOM",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "No production or personal data used",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "No screenshot pixel retouching",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / vesta-RU.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / heating-RU.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / tools-RU.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / vesta-EN.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / heating-EN.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / tools-EN.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / vesta-DE.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / heating-DE.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / tools-DE.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / vesta-FR.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / heating-FR.png",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Screenshot bytes / tools-FR.png",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "editions": [
+    {
+      "language": "RU",
+      "pages": 10,
+      "sha256": "78c9acc2d833ac5dc756f7d26ff0f8fa49b10b66f69568c9fcde0f725bdf17f3",
+      "bytes": 5255433,
+      "link_targets": [
+        "https://github.com/isidisis49-ctrl/vmeste-book",
+        "https://t.me/VmesteSiteBot",
+        "https://vk.com/club243081835",
+        "https://web.max.ru/772602012",
+        "https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/",
+        "https://xn--b1aga0a0ag.site/"
+      ],
+      "page_metrics": [
+        {
+          "page": 1,
+          "text_characters": 276,
+          "images": 1,
+          "minimum_text_pt": 8.0,
+          "maximum_text_pt": 38.0
+        },
+        {
+          "page": 2,
+          "text_characters": 950,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 3,
+          "text_characters": 1046,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 4,
+          "text_characters": 1012,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 5,
+          "text_characters": 1087,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 6,
+          "text_characters": 996,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 7,
+          "text_characters": 681,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 8,
+          "text_characters": 710,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 9,
+          "text_characters": 556,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 10,
+          "text_characters": 863,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 22.0
+        }
+      ]
+    },
+    {
+      "language": "EN",
+      "pages": 10,
+      "sha256": "bc803d3fd0326261e559a2245aede02a05886e80d65d5cfa48255f77f9702350",
+      "bytes": 5218578,
+      "link_targets": [
+        "https://github.com/isidisis49-ctrl/vmeste-book",
+        "https://t.me/VmesteSiteBot",
+        "https://vk.com/club243081835",
+        "https://web.max.ru/772602012",
+        "https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/",
+        "https://xn--b1aga0a0ag.site/"
+      ],
+      "page_metrics": [
+        {
+          "page": 1,
+          "text_characters": 267,
+          "images": 1,
+          "minimum_text_pt": 8.0,
+          "maximum_text_pt": 38.0
+        },
+        {
+          "page": 2,
+          "text_characters": 948,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 3,
+          "text_characters": 1031,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 4,
+          "text_characters": 1010,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 5,
+          "text_characters": 1017,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 6,
+          "text_characters": 1050,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 7,
+          "text_characters": 897,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 8,
+          "text_characters": 825,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 9,
+          "text_characters": 632,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 10,
+          "text_characters": 833,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 22.0
+        }
+      ]
+    },
+    {
+      "language": "DE",
+      "pages": 10,
+      "sha256": "c4a00d2201f3342a753a0a1262bd523ce46af361c7b3518cd1f817079b770085",
+      "bytes": 5242338,
+      "link_targets": [
+        "https://github.com/isidisis49-ctrl/vmeste-book",
+        "https://t.me/VmesteSiteBot",
+        "https://vk.com/club243081835",
+        "https://web.max.ru/772602012",
+        "https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/",
+        "https://xn--b1aga0a0ag.site/"
+      ],
+      "page_metrics": [
+        {
+          "page": 1,
+          "text_characters": 287,
+          "images": 1,
+          "minimum_text_pt": 8.0,
+          "maximum_text_pt": 38.0
+        },
+        {
+          "page": 2,
+          "text_characters": 1067,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 3,
+          "text_characters": 1115,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 4,
+          "text_characters": 998,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 5,
+          "text_characters": 1135,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 6,
+          "text_characters": 1001,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 7,
+          "text_characters": 863,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 8,
+          "text_characters": 882,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 9,
+          "text_characters": 700,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 10,
+          "text_characters": 896,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 22.0
+        }
+      ]
+    },
+    {
+      "language": "FR",
+      "pages": 10,
+      "sha256": "dd7723bee01eaadfa3792ab214a6b712dbfa04a5ec034a751f53c8132c8ac0ba",
+      "bytes": 5233499,
+      "link_targets": [
+        "https://github.com/isidisis49-ctrl/vmeste-book",
+        "https://t.me/VmesteSiteBot",
+        "https://vk.com/club243081835",
+        "https://web.max.ru/772602012",
+        "https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/",
+        "https://xn--b1aga0a0ag.site/"
+      ],
+      "page_metrics": [
+        {
+          "page": 1,
+          "text_characters": 270,
+          "images": 1,
+          "minimum_text_pt": 8.0,
+          "maximum_text_pt": 38.0
+        },
+        {
+          "page": 2,
+          "text_characters": 1113,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 3,
+          "text_characters": 1122,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 4,
+          "text_characters": 1036,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 5,
+          "text_characters": 1108,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 6,
+          "text_characters": 1045,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 7,
+          "text_characters": 870,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 8,
+          "text_characters": 861,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 9,
+          "text_characters": 712,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 18.0
+        },
+        {
+          "page": 10,
+          "text_characters": 903,
+          "images": 1,
+          "minimum_text_pt": 7.800000190734863,
+          "maximum_text_pt": 22.0
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Editorial UI localization is not a released multilingual product.",
+    "Remote link availability is distinct from exact embedded target validation.",
+    "Generated artwork was visually reviewed; OCR is advisory, not a proof of absence of all text."
+  ]
+}
