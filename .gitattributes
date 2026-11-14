@@ -1,0 +1,6 @@
+# Preserve source image and PDF checksums on every operating system.
+*.pdf -text
+*.png -text
+*.webp -text
+*.jpg -text
+*.jpeg -text

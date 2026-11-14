@@ -1,0 +1,29 @@
+{
+  "edition": "2026.11.15",
+  "files": [
+    {
+      "language": "RU",
+      "file": "VMESTE_Book_RU_2026.pdf",
+      "sha256": "78c9acc2d833ac5dc756f7d26ff0f8fa49b10b66f69568c9fcde0f725bdf17f3",
+      "bytes": 5255433
+    },
+    {
+      "language": "EN",
+      "file": "VMESTE_Book_EN_2026.pdf",
+      "sha256": "bc803d3fd0326261e559a2245aede02a05886e80d65d5cfa48255f77f9702350",
+      "bytes": 5218578
+    },
+    {
+      "language": "DE",
+      "file": "VMESTE_Book_DE_2026.pdf",
+      "sha256": "c4a00d2201f3342a753a0a1262bd523ce46af361c7b3518cd1f817079b770085",
+      "bytes": 5242338
+    },
+    {
+      "language": "FR",
+      "file": "VMESTE_Book_FR_2026.pdf",
+      "sha256": "dd7723bee01eaadfa3792ab214a6b712dbfa04a5ec034a751f53c8132c8ac0ba",
+      "bytes": 5233499
+    }
+  ]
+}

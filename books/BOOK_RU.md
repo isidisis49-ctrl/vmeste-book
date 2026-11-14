@@ -64,10 +64,11 @@
 
 ## Узнать больше и присоединиться
 
-- [Website](https://xn--b1aga0a0ag.site/)
+- [Сайт проекта](https://xn--b1aga0a0ag.site/)
 - [Telegram](https://t.me/VmesteSiteBot)
 - [VK](https://vk.com/club243081835)
 - [MAX](https://web.max.ru/772602012)
+- [Книги и исходные материалы на GitHub](https://github.com/isidisis49-ctrl/vmeste-book)
 
 **[Поддержать наши проекты](https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/)**
 

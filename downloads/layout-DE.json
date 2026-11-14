@@ -1,0 +1,534 @@
+[
+  {
+    "page": 1,
+    "kind": "image",
+    "bottom": 400.04,
+    "height": 396.85,
+    "width": 595.28
+  },
+  {
+    "page": 1,
+    "kind": "text",
+    "bottom": 380.04,
+    "height": 12,
+    "style": "caption"
+  },
+  {
+    "page": 1,
+    "kind": "text",
+    "bottom": 241.04,
+    "height": 56,
+    "style": "title"
+  },
+  {
+    "page": 1,
+    "kind": "text",
+    "bottom": 210.04,
+    "height": 16,
+    "style": "body"
+  },
+  {
+    "page": 1,
+    "kind": "text",
+    "bottom": 176.04,
+    "height": 14,
+    "style": "small"
+  },
+  {
+    "page": 1,
+    "kind": "text",
+    "bottom": 124.04,
+    "height": 16,
+    "style": "body"
+  },
+  {
+    "page": 2,
+    "kind": "image",
+    "bottom": 498.89,
+    "height": 267.0,
+    "width": 400.5
+  },
+  {
+    "page": 2,
+    "kind": "text",
+    "bottom": 478.89,
+    "height": 12,
+    "style": "caption"
+  },
+  {
+    "page": 2,
+    "kind": "text",
+    "bottom": 438.89,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 2,
+    "kind": "text",
+    "bottom": 364.89,
+    "height": 64,
+    "style": "body"
+  },
+  {
+    "page": 2,
+    "kind": "text",
+    "bottom": 326.49,
+    "height": 15.4,
+    "style": "quote"
+  },
+  {
+    "page": 2,
+    "kind": "text",
+    "bottom": 280.49,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 2,
+    "kind": "text",
+    "bottom": 206.49,
+    "height": 64,
+    "style": "body"
+  },
+  {
+    "page": 2,
+    "kind": "text",
+    "bottom": 152.69,
+    "height": 30.8,
+    "style": "quote"
+  },
+  {
+    "page": 3,
+    "kind": "image",
+    "bottom": 498.89,
+    "height": 267.0,
+    "width": 400.5
+  },
+  {
+    "page": 3,
+    "kind": "text",
+    "bottom": 478.89,
+    "height": 12,
+    "style": "caption"
+  },
+  {
+    "page": 3,
+    "kind": "text",
+    "bottom": 438.89,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 3,
+    "kind": "text",
+    "bottom": 364.89,
+    "height": 64,
+    "style": "body"
+  },
+  {
+    "page": 3,
+    "kind": "text",
+    "bottom": 311.09,
+    "height": 30.8,
+    "style": "quote"
+  },
+  {
+    "page": 3,
+    "kind": "text",
+    "bottom": 265.09,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 3,
+    "kind": "text",
+    "bottom": 191.09,
+    "height": 64,
+    "style": "body"
+  },
+  {
+    "page": 3,
+    "kind": "text",
+    "bottom": 137.29,
+    "height": 30.8,
+    "style": "quote"
+  },
+  {
+    "page": 4,
+    "kind": "image",
+    "bottom": 498.89,
+    "height": 267.0,
+    "width": 400.5
+  },
+  {
+    "page": 4,
+    "kind": "text",
+    "bottom": 478.89,
+    "height": 12,
+    "style": "caption"
+  },
+  {
+    "page": 4,
+    "kind": "text",
+    "bottom": 438.89,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 4,
+    "kind": "text",
+    "bottom": 364.89,
+    "height": 64,
+    "style": "body"
+  },
+  {
+    "page": 4,
+    "kind": "text",
+    "bottom": 311.09,
+    "height": 30.8,
+    "style": "quote"
+  },
+  {
+    "page": 4,
+    "kind": "text",
+    "bottom": 265.09,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 4,
+    "kind": "text",
+    "bottom": 207.09,
+    "height": 48,
+    "style": "body"
+  },
+  {
+    "page": 4,
+    "kind": "text",
+    "bottom": 153.29,
+    "height": 30.8,
+    "style": "quote"
+  },
+  {
+    "page": 5,
+    "kind": "image",
+    "bottom": 498.89,
+    "height": 267.0,
+    "width": 400.5
+  },
+  {
+    "page": 5,
+    "kind": "text",
+    "bottom": 478.89,
+    "height": 12,
+    "style": "caption"
+  },
+  {
+    "page": 5,
+    "kind": "text",
+    "bottom": 438.89,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 5,
+    "kind": "text",
+    "bottom": 348.89,
+    "height": 80,
+    "style": "body"
+  },
+  {
+    "page": 5,
+    "kind": "text",
+    "bottom": 295.09,
+    "height": 30.8,
+    "style": "quote"
+  },
+  {
+    "page": 5,
+    "kind": "text",
+    "bottom": 249.09,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 5,
+    "kind": "text",
+    "bottom": 175.09,
+    "height": 64,
+    "style": "body"
+  },
+  {
+    "page": 5,
+    "kind": "text",
+    "bottom": 121.29,
+    "height": 30.8,
+    "style": "quote"
+  },
+  {
+    "page": 6,
+    "kind": "image",
+    "bottom": 498.89,
+    "height": 267.0,
+    "width": 400.5
+  },
+  {
+    "page": 6,
+    "kind": "text",
+    "bottom": 478.89,
+    "height": 12,
+    "style": "caption"
+  },
+  {
+    "page": 6,
+    "kind": "text",
+    "bottom": 438.89,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 6,
+    "kind": "text",
+    "bottom": 380.89,
+    "height": 48,
+    "style": "body"
+  },
+  {
+    "page": 6,
+    "kind": "text",
+    "bottom": 327.09,
+    "height": 30.8,
+    "style": "quote"
+  },
+  {
+    "page": 6,
+    "kind": "text",
+    "bottom": 281.09,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 6,
+    "kind": "text",
+    "bottom": 191.09,
+    "height": 80,
+    "style": "body"
+  },
+  {
+    "page": 6,
+    "kind": "text",
+    "bottom": 137.29,
+    "height": 30.8,
+    "style": "quote"
+  },
+  {
+    "page": 7,
+    "kind": "text",
+    "bottom": 743.89,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 7,
+    "kind": "image",
+    "bottom": 375.89,
+    "height": 350.0,
+    "width": 505.96
+  },
+  {
+    "page": 7,
+    "kind": "text",
+    "bottom": 337.89,
+    "height": 28,
+    "style": "small"
+  },
+  {
+    "page": 7,
+    "kind": "text",
+    "bottom": 284.89,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 7,
+    "kind": "text",
+    "bottom": 244.89,
+    "height": 30,
+    "style": "card"
+  },
+  {
+    "page": 7,
+    "kind": "text",
+    "bottom": 204.89,
+    "height": 30,
+    "style": "card"
+  },
+  {
+    "page": 7,
+    "kind": "text",
+    "bottom": 164.89,
+    "height": 30,
+    "style": "card"
+  },
+  {
+    "page": 7,
+    "kind": "text",
+    "bottom": 110.89,
+    "height": 24,
+    "style": "caption"
+  },
+  {
+    "page": 8,
+    "kind": "text",
+    "bottom": 743.89,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 8,
+    "kind": "image",
+    "bottom": 414.86,
+    "height": 311.03,
+    "width": 509.28
+  },
+  {
+    "page": 8,
+    "kind": "text",
+    "bottom": 376.86,
+    "height": 28,
+    "style": "small"
+  },
+  {
+    "page": 8,
+    "kind": "text",
+    "bottom": 323.86,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 8,
+    "kind": "text",
+    "bottom": 298.86,
+    "height": 15,
+    "style": "card"
+  },
+  {
+    "page": 8,
+    "kind": "text",
+    "bottom": 273.86,
+    "height": 15,
+    "style": "card"
+  },
+  {
+    "page": 8,
+    "kind": "text",
+    "bottom": 233.86,
+    "height": 30,
+    "style": "card"
+  },
+  {
+    "page": 8,
+    "kind": "text",
+    "bottom": 179.86,
+    "height": 24,
+    "style": "caption"
+  },
+  {
+    "page": 8,
+    "kind": "text",
+    "bottom": 141.86,
+    "height": 28,
+    "style": "small"
+  },
+  {
+    "page": 9,
+    "kind": "text",
+    "bottom": 743.89,
+    "height": 22,
+    "style": "heading"
+  },
+  {
+    "page": 9,
+    "kind": "image",
+    "bottom": 259.9,
+    "height": 465.99,
+    "width": 509.28
+  },
+  {
+    "page": 9,
+    "kind": "text",
+    "bottom": 221.9,
+    "height": 28,
+    "style": "small"
+  },
+  {
+    "page": 9,
+    "kind": "text",
+    "bottom": 173.9,
+    "height": 32,
+    "style": "body"
+  },
+  {
+    "page": 9,
+    "kind": "text",
+    "bottom": 131.9,
+    "height": 32,
+    "style": "body"
+  },
+  {
+    "page": 9,
+    "kind": "text",
+    "bottom": 97.9,
+    "height": 24,
+    "style": "caption"
+  },
+  {
+    "page": 10,
+    "kind": "text",
+    "bottom": 737.89,
+    "height": 28,
+    "style": "title"
+  },
+  {
+    "page": 10,
+    "kind": "text",
+    "bottom": 691.89,
+    "height": 32,
+    "style": "body"
+  },
+  {
+    "page": 10,
+    "kind": "text",
+    "bottom": 340.89,
+    "height": 28,
+    "style": "small"
+  },
+  {
+    "page": 10,
+    "kind": "text",
+    "bottom": 304.89,
+    "height": 24,
+    "style": "caption"
+  },
+  {
+    "page": 10,
+    "kind": "image",
+    "bottom": 152.89,
+    "height": 135.0,
+    "width": 202.5
+  },
+  {
+    "page": 10,
+    "kind": "text",
+    "bottom": 231.69,
+    "height": 46.2,
+    "style": "quote"
+  },
+  {
+    "page": 10,
+    "kind": "text",
+    "bottom": 75,
+    "height": 24,
+    "style": "caption"
+  }
+]

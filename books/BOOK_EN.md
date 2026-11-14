@@ -64,10 +64,11 @@ It is natural to want to understand the value of months of work. A preliminary f
 
 ## Explore the project and join us
 
-- [Website](https://xn--b1aga0a0ag.site/)
+- [Project website](https://xn--b1aga0a0ag.site/)
 - [Telegram](https://t.me/VmesteSiteBot)
 - [VK](https://vk.com/club243081835)
 - [MAX](https://web.max.ru/772602012)
+- [Books and source materials on GitHub](https://github.com/isidisis49-ctrl/vmeste-book)
 
 **[Support Our Projects](https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/)**
 

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+*.b64
+.env
+*.private.*

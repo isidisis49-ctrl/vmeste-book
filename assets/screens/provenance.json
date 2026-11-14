@@ -1,0 +1,144 @@
+{
+  "captures": [
+    {
+      "file": "vesta-RU.png",
+      "sha256": "d1f1c992461aa36b29a9168fc44f6c272200de3fc58bacf14a97b30798f02237",
+      "language": "RU",
+      "program": "vesta",
+      "local_review_build": true,
+      "editorial_ui_translation": false,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "heating-RU.png",
+      "sha256": "8bae09a7d055114cd5ed0ce5a5a1e636b9c74e65ad1b0cc96f4486365429c8a7",
+      "language": "RU",
+      "program": "heating",
+      "local_review_build": true,
+      "editorial_ui_translation": false,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "tools-RU.png",
+      "sha256": "d2d8251139ba0a05d75f3a0edabd3709fef18ebb127bdd66fd155af27cf30e1e",
+      "language": "RU",
+      "program": "tools",
+      "local_review_build": true,
+      "editorial_ui_translation": false,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "vesta-EN.png",
+      "sha256": "f8a47afc3778785c00bad55d80289b90c8440f82ed75e0dba97530f62f08414a",
+      "language": "EN",
+      "program": "vesta",
+      "local_review_build": true,
+      "editorial_ui_translation": true,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "heating-EN.png",
+      "sha256": "b4d53c5a9562440d94587a292432515ac845868dc6dfa668a6eddf069cb14a1e",
+      "language": "EN",
+      "program": "heating",
+      "local_review_build": true,
+      "editorial_ui_translation": true,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "tools-EN.png",
+      "sha256": "cbf20947513ab57668968fa201e4a8d5bd18bd1ec0715e4e19db357464b059cd",
+      "language": "EN",
+      "program": "tools",
+      "local_review_build": true,
+      "editorial_ui_translation": true,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "vesta-DE.png",
+      "sha256": "d82bbe04468b59e8c031042badbc04fb4f16797ea99fe2c2366bc23a917958f1",
+      "language": "DE",
+      "program": "vesta",
+      "local_review_build": true,
+      "editorial_ui_translation": true,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "heating-DE.png",
+      "sha256": "a95518ac30f18acb8069973d7f17a0066b8bd848b54c5c5f7b7e5376369bf26a",
+      "language": "DE",
+      "program": "heating",
+      "local_review_build": true,
+      "editorial_ui_translation": true,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "tools-DE.png",
+      "sha256": "de66904982e7f963273b8a740b6561e6a7966dd43a7e59c3a003dd05dad5a35e",
+      "language": "DE",
+      "program": "tools",
+      "local_review_build": true,
+      "editorial_ui_translation": true,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "vesta-FR.png",
+      "sha256": "9beb3a1e188d69f956cf51a0ba35c3da1ebcd610c354197caa269bc9651dfa1a",
+      "language": "FR",
+      "program": "vesta",
+      "local_review_build": true,
+      "editorial_ui_translation": true,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "heating-FR.png",
+      "sha256": "fcdff9dd1593656c1b5b5087b6997cc4dcc567875bcab91437041695c3ff87fa",
+      "language": "FR",
+      "program": "heating",
+      "local_review_build": true,
+      "editorial_ui_translation": true,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    },
+    {
+      "file": "tools-FR.png",
+      "sha256": "aa8b75bd5d686a96f25b0f32cf9708fad55816f99966d24394deeeb1fae0bff4",
+      "language": "FR",
+      "program": "tools",
+      "local_review_build": true,
+      "editorial_ui_translation": true,
+      "pixel_retouched": false,
+      "untranslated_cyrillic": []
+    }
+  ],
+  "vesta_source_sha256": {
+    "app.py": "c7ad76b73a28a80e621c69a7a9626934e0a3462b33321630d60216e67dfa3f10",
+    "index.html": "55ec1b70d7faf092ef8619650fb7fbfbb90d7ef82aeae2cac783628af5a53387",
+    "request_catalog_flow.js": "5d985e6d5c793f326eb8989e2d1b7ab88c4772c55a0677e2937400738b761206"
+  },
+  "heating_source_sha256": "7cf92a2f3777271ea9f09713aac75ce8a19577d2b2dfb14cfd3c8f222eebcf9b",
+  "local_assets_sha256": {
+    "/heating-view.html": "7cf92a2f3777271ea9f09713aac75ce8a19577d2b2dfb14cfd3c8f222eebcf9b",
+    "/illustrations/approved-cartoon/hero_tools.webp": "b95f09d5ea64bc44982a1f79045d62a60379efb5a0969234966394f4f3b55279",
+    "/illustrations/approved-cartoon/category_autogarage.webp": "e8ba52ca0a380be184fb625dff42aba1f16f8fa0c5c3c13116785653cc8f1615",
+    "/illustrations/approved-cartoon/category_motogarage.webp": "3d49917a0fe749995b4f9afeb868a74ef55ab00f02ef8f5f5286d989371cd08e",
+    "/illustrations/approved-cartoon/category_home.webp": "689bf5d01c44ef7b35198871036b01df7f116b10b8ec86bf5ef13b7189e5259f",
+    "/illustrations/approved-cartoon/category_fishing.webp": "c5376a69244413837e2a12659b7489bd568f17185d5b5b71e34cb4384c2b3068",
+    "/illustrations/approved-cartoon/category_garden.webp": "3db6ef3ff20960ecec211b4bc5c2805f74dac0b334d99811860a866e8ab44c2f",
+    "/illustrations/approved-cartoon/category_calculations.webp": "8047313f0ec1838edc9c3bb87d1c1aa5f6dd9eafe9aba9ed4064e2aa5eb74d52"
+  },
+  "production_contacted": false,
+  "personal_data_used": false,
+  "actual_ollama_or_microphone": false,
+  "note": "Actual local programs; foreign UI labels editorially translated, not a shipped multilingual release. Simulation readings are not physical measurements."
+}

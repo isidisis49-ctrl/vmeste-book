@@ -64,10 +64,11 @@ Wer viel Zeit in ein Projekt investiert, möchte seinen Wert kennen. Als grobe O
 
 ## Das Projekt entdecken und mitmachen
 
-- [Website](https://xn--b1aga0a0ag.site/)
+- [Projektwebsite](https://xn--b1aga0a0ag.site/)
 - [Telegram](https://t.me/VmesteSiteBot)
 - [VK](https://vk.com/club243081835)
 - [MAX](https://web.max.ru/772602012)
+- [Bücher und Ausgangsmaterialien auf GitHub](https://github.com/isidisis49-ctrl/vmeste-book)
 
 **[Unsere Projekte unterstützen](https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/)**
 
