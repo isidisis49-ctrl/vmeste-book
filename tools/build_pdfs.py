@@ -88,7 +88,7 @@ for lang in ("RU","EN","DE","FR"):
             flush()
         elif line.startswith("## "):
             flush()
-            if chapter:story.append(PageBreak())
+            if chapter:story.append(Spacer(1, .65*cm))
             story.append(Paragraph(inline(line[3:]),heading))
             if chapter in (2,5,8):
                 story.append(art(15.5*cm))
