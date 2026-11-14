@@ -69,6 +69,6 @@ Après des mois d’efforts, il est naturel de vouloir mesurer la valeur du trav
 - [VK](https://vk.com/club243081835)
 - [MAX](https://web.max.ru/772602012)
 
-**[Soutenir nos projets](https://xn--b1aga0a0ag.site/)**
+**[Soutenir nos projets](https://t.tb.ru/pm_short/ArEtM5VCm8v)**
 
 Les illustrations futuristes sont artistiques. Les robots et le concept d’IA industrielle ne sont pas présentés comme des produits achevés.
