@@ -26,7 +26,7 @@
 
 ## ❤️ Поддержать наши проекты / Support Our Projects
 
-[**Поддержать проект «Вместе» на сайте**](https://xn--b1aga0a0ag.site/)
+[**❤️ Поддержать проекты «Вместе» — прямой переход к сбору в Т-Банке**](https://www.tbank-online.com/mybank/poolmoney/for/r_YlAHUiuafH.pMxtweDzlU/QV8J770476/)
 
 *Support our projects · Unsere Projekte unterstützen · Soutenir nos projets*
 
