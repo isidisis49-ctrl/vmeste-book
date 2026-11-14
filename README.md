@@ -8,12 +8,12 @@
 
 | Язык / Language | Книга / Book |
 | --- | --- |
-| 🇷🇺 Русский | [«ВМЕСТЕ. От одного сайта — к миру технологий»](books/BOOK_RU.md) |
-| 🇬🇧 English | [*VMESTE: From One Website to a World of Technology*](books/BOOK_EN.md) |
-| 🇩🇪 Deutsch | [*VMESTE: Von einer Website zu einer Welt der Technologie*](books/BOOK_DE.md) |
-| 🇫🇷 Français | [*VMESTE : D’un site web à tout un univers technologique*](books/BOOK_FR.md) |
+| 🇷🇺 Русский | [Читать](books/BOOK_RU.md) · [**PDF скачать**](downloads/VMESTE_Book_RU_2026.pdf) |
+| 🇬🇧 English | [Read](books/BOOK_EN.md) · [**Download PDF**](downloads/VMESTE_Book_EN_2026.pdf) |
+| 🇩🇪 Deutsch | [Lesen](books/BOOK_DE.md) · [**PDF herunterladen**](downloads/VMESTE_Book_DE_2026.pdf) |
+| 🇫🇷 Français | [Lire](books/BOOK_FR.md) · [**Télécharger PDF**](downloads/VMESTE_Book_FR_2026.pdf) |
 
-**Иллюстрированные PDF-файлы готовятся к размещению в этом репозитории.** Полные тексты уже открыты для чтения.
+**Четыре PDF опубликованы и доступны для скачивания.** Они автоматически собраны из открытых текстов, с иллюстрированной обложкой. Более насыщенное графическое издание подготовлено отдельно; его изображения ещё не перенесены в этот репозиторий.
 
 ## 🌍 Присоединяйтесь / Follow VMESTE
 
