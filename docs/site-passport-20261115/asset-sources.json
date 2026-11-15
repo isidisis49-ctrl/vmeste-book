@@ -1,0 +1,44 @@
+[
+  {
+    "source_path": "assets/art/cover-workshop.png",
+    "local_path": "assets/cover-workshop.png",
+    "source_commit": "993c830e8ceb589d07599f6045fe316cd7adcd6b",
+    "bytes": 3198021,
+    "sha256": "1246f9825a2e94cbbdcc3b77e96f4537b1b73307e72a8735f42c21ee2c68ff5a"
+  },
+  {
+    "source_path": "assets/screens/vesta-RU.png",
+    "local_path": "assets/vesta-RU.png",
+    "source_commit": "993c830e8ceb589d07599f6045fe316cd7adcd6b",
+    "bytes": 103582,
+    "sha256": "d1f1c992461aa36b29a9168fc44f6c272200de3fc58bacf14a97b30798f02237"
+  },
+  {
+    "source_path": "assets/screens/vesta-EN.png",
+    "local_path": "assets/vesta-EN.png",
+    "source_commit": "993c830e8ceb589d07599f6045fe316cd7adcd6b",
+    "bytes": 93524,
+    "sha256": "f8a47afc3778785c00bad55d80289b90c8440f82ed75e0dba97530f62f08414a"
+  },
+  {
+    "source_path": "assets/screens/tools-RU.png",
+    "local_path": "assets/tools-RU.png",
+    "source_commit": "993c830e8ceb589d07599f6045fe316cd7adcd6b",
+    "bytes": 801675,
+    "sha256": "d2d8251139ba0a05d75f3a0edabd3709fef18ebb127bdd66fd155af27cf30e1e"
+  },
+  {
+    "source_path": "assets/screens/tools-EN.png",
+    "local_path": "assets/tools-EN.png",
+    "source_commit": "993c830e8ceb589d07599f6045fe316cd7adcd6b",
+    "bytes": 791110,
+    "sha256": "cbf20947513ab57668968fa201e4a8d5bd18bd1ec0715e4e19db357464b059cd"
+  },
+  {
+    "source_path": "tools/build_pdfs.py",
+    "local_path": "tools/book_layout.py",
+    "source_commit": "993c830e8ceb589d07599f6045fe316cd7adcd6b",
+    "bytes": 12709,
+    "sha256": "72969abc6185ffeb60e47f6ce0ffd06457cef4223358713432a2aac405507481"
+  }
+]

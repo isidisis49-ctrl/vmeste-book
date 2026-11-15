@@ -1,0 +1,64 @@
+{
+  "currency": "USD",
+  "assumptions_not_vendor_quotes": true,
+  "effort_hours": [
+    [
+      80,
+      160
+    ],
+    [
+      160,
+      320
+    ],
+    [
+      240,
+      440
+    ],
+    [
+      180,
+      320
+    ],
+    [
+      160,
+      280
+    ],
+    [
+      140,
+      260
+    ],
+    [
+      140,
+      220
+    ]
+  ],
+  "hourly_rates": [
+    30,
+    60
+  ],
+  "website_total_usd": [
+    33000,
+    120000
+  ],
+  "android_mvp_hours": [
+    400,
+    800
+  ],
+  "android_mvp_usd": [
+    12000,
+    48000
+  ],
+  "ios_optional_hours": [
+    360,
+    720
+  ],
+  "ios_optional_usd": [
+    10800,
+    43200
+  ],
+  "website_plus_android_usd": [
+    45000,
+    168000
+  ],
+  "illustrative_usd_per_eur": 1.1,
+  "fx_is_not_market_quote": true
+}

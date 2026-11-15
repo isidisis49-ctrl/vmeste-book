@@ -1,0 +1,818 @@
+{
+  "RU": {
+    "title": "Технический паспорт сайта «Вместе»",
+    "subtitle": "Функционально полная конфигурация платформы",
+    "tag": "ru-RU",
+    "review": "ПРОЕКТНАЯ РЕДАКЦИЯ · ДЛЯ СОГЛАСОВАНИЯ",
+    "identity": [
+      "Документ: TP-VMESTE-2026.11 · редакция 1.0",
+      "Дата подготовки: 15 ноября 2026 года",
+      "Объект: https://xn--b1aga0a0ag.site/",
+      "Язык документа: русский"
+    ],
+    "scope": "Паспорт описывает согласуемую полную систему: сайт, личные кабинеты, заявки, связь, справочный поиск, инструменты и ВЕСТУ. Описание дано как единая эксплуатационная модель. Оно не означает, что все перечисленные компоненты уже установлены, приняты или испытаны на рабочем сервере. Отдельное Android-приложение включено как приоритет проектирования и последующей разработки. Приложение iOS — самостоятельный следующий этап. Готовые мобильные сборки этим документом не заявляются.",
+    "cover_note": "Иллюстрации ИИ обозначают идею проекта; они не являются фотографиями установленного оборудования. Документ не является актом ввода в эксплуатацию, сертификатом соответствия или гарантией доступности.",
+    "sections": [
+      {
+        "title": "1. Назначение и состав системы",
+        "paras": [
+          "«Вместе» соединяет заказчика, исполнителя и администратора в одном цифровом пространстве. Пользователь формулирует задачу, находит предложения, общается и подтверждает результат. ИИ помогает готовить сведения, но не заменяет участников сделки и их согласие.",
+          "Состав: адаптивный веб-интерфейс; API приложения; база данных; личные кабинеты; заявки и поездки; отклики, приватный чат и уведомления; карты; статьи; инструменты; административная панель; подключаемая ВЕСТА. Локальные приложения ВЕСТА и ТАШИ — отдельные продукты, не часть обязательного серверного контура."
+        ],
+        "table": [
+          [
+            "Область",
+            "Назначение",
+            "Основание / статус"
+          ],
+          [
+            "Пользователи и заявки",
+            "Регистрация, профиль, отклики, чат",
+            "Базовые модули в исходниках сайта"
+          ],
+          [
+            "Контент и конструкторы",
+            "Статьи, баннеры, формы и инструменты",
+            "Реальные компоненты в исходниках; приёмка сборки отдельно"
+          ],
+          [
+            "ВЕСТА и каталог",
+            "Черновики, подбор, контроль",
+            "Лабораторные разработки; установка не подтверждена"
+          ],
+          [
+            "Мессенджеры",
+            "VK и MAX как точки связи",
+            "Работа ранее подтверждена владельцем; сегодня не проверялась"
+          ],
+          [
+            "Локальный голос и ИИ",
+            "Vosk, Ollama, Windows-голос",
+            "Зависят от отдельной локальной сборки и компонентов"
+          ],
+          [
+            "Android / iOS",
+            "Отдельные клиенты общего API",
+            "Android — приоритет разработки; iOS — следующий этап"
+          ]
+        ],
+        "note": "Статус реализации и готовность к production — разные свойства. Четыре языка изданий не означают, что сайт или распознавание речи уже поддерживают четыре языка."
+      },
+      {
+        "title": "2. Архитектура и программные компоненты",
+        "paras": [
+          "Веб-клиент React/TypeScript обращается к FastAPI через HTTPS reverse proxy Nginx. Прикладные данные сохраняются в PostgreSQL. Redis участвует в предусмотренных кодом сервисных операциях. Загрузки размещаются в настроенном файловом или совместимом объектном хранилище.",
+          "Контейнеризация отделяет компоненты. ВЕСТА использует ограниченные интерфейсы сайта; размещение её в отдельном сервисе — целевой вариант, а не подтверждение запущенного контейнера. Промышленный помощник, если создаётся, размещается отдельно и не получает данные через общественный сайт."
+        ],
+        "diagram": "architecture",
+        "table": [
+          [
+            "Компонент",
+            "Технология / назначение"
+          ],
+          [
+            "Клиент",
+            "React, TypeScript, браузерный интерфейс"
+          ],
+          [
+            "Приложение",
+            "Python 3.12, FastAPI, Uvicorn"
+          ],
+          [
+            "Данные",
+            "PostgreSQL 16, SQLAlchemy, Alembic"
+          ],
+          [
+            "Инфраструктура",
+            "Docker Compose, Nginx, Redis"
+          ],
+          [
+            "Геосервисы",
+            "OSM-карта; геопоиск и маршруты через настроенные сервисы"
+          ]
+        ],
+        "note": "Версии зависимостей не являются фиксированным требованием навсегда: точный состав закрепляется манифестом каждого согласованного релиза."
+      },
+      {
+        "title": "3. Жизненный цикл заявки",
+        "paras": [
+          "Черновик → проверка автором → отправка → модерация → публичная заявка → отклики → выбор помощника → выполнение → подтверждение результата. Отклонение и отмена сохраняются как отдельные исходы. Сервер проверяет допустимость перехода и права участника.",
+          "Обычная неодобренная заявка не должна быть доступна посторонним ни в списке, ни по прямому идентификатору, ни через новый API ВЕСТЫ. Авторизация и проверка принадлежности выполняются на backend. Этот сценарий является блокирующим критерием приёмки.",
+          "Для поездок действует отдельная политика публикации. В просмотренной версии исходников автоматическое одобрение связано с категорией «Поездка», а не с отдельной проверкой срочности. Окончательное правило необходимо согласовать и проверить перед выпуском.",
+          "FREE в просмотренном коде даёт 5 откликов без календарного срока и без автоматического обновления. Это не обещание бесконечных откликов и не лимит пяти одновременно открытых заявок. Срок платного доступа не равен сроку жизни заявки; завершение работы само по себе не восстанавливает бесплатную квоту."
+        ],
+        "diagram": "request",
+        "note": "Окончание подписки не должно самопроизвольно менять состояние уже согласованной работы. Правила доступа к активной переписке и завершению проверяются отдельными тестами."
+      },
+      {
+        "title": "4. Конструкторы и прикладные инструменты",
+        "paras": [
+          "Конструктор баннеров в административном интерфейсе: параметры макета, фон и логотип, предпросмотр, сохранение проекта, выгрузка изображения и размещение в доступном слоте. Версия проекта и идемпотентный ключ используются для защиты от конфликтов и повторов. Это описание реального компонента BannerConstructor, а не нового обещанного редактора.",
+          "Редактор статей и документов работает в существующей админке. Конструктор заявки — структурированная форма с категорией, описанием, местом и другими полями. ВЕСТА подготавливает текст, а пользователь редактирует и отправляет его сам.",
+          "Каталог инструментов объединяет существующие разделы расчётов, дома, транспорта, сада и других задач. Наличие категории не означает одинаковую готовность всех инструментов. Симулятор отопления показывает расчётные значения, не реальные показания датчиков."
+        ],
+        "diagram": "constructor",
+        "screen": "tools",
+        "screen_caption": "Реальный интерфейс каталога инструментов из локальной проверочной сборки. Это не снимок конструктора баннеров и не доказательство установки данной версии на рабочем сайте.",
+        "note": "Общий визуальный редактор произвольных страниц сайта в просмотренных материалах не подтверждён; он не включён как готовая функция."
+      },
+      {
+        "title": "5. ВЕСТА и поиск исполнителей",
+        "paras": [
+          "Целевой путь: описание проблемы → редактируемый проект заявки → определение услуги и населённого пункта → рекомендации. Обычный детерминированный поиск работает без обязательной большой языковой модели. Ollama — отдельная зависимость для локальных ИИ-возможностей, а не условие доступности всего сайта.",
+          "Справочный каталог содержит 81 исходную карточку: 56 draft и 25 hold. Идентификаторы, статусы и источники сохраняются. Повторный импорт не должен создавать дубли или превращать карточки в аккаунты пользователей. В исходном каталоге нет подтверждённых зарегистрированных исполнителей.",
+          "Записи hold исключаются из рекомендаций. Услуга и населённый пункт должны соответствовать подтверждённым данным. Межгород разрешается только при подтверждённых условиях выезда; в рассмотренном наборе таких условий нет. Пустой результат допустим и не заменяется выдуманной рекомендацией.",
+          "Обязательная подпись: «Справочная карточка. Участие во „Вместе“ и доступность не подтверждены». Связь карточки с реальным аккаунтом требует регистрации и независимой проверки полномочий; она не подтверждает автоматически квалификацию, цену и свободное время."
+        ],
+        "screen": "vesta",
+        "screen_caption": "Реальный локальный интерфейс ВЕСТЫ из проверочной сборки. Снимок не подтверждает работу настоящего микрофона, модели или установку на VDS."
+      },
+      {
+        "title": "6. Голосовые возможности",
+        "paras": [
+          "На сайте голосовой ввод использует SpeechRecognition/webkitSpeechRecognition при поддержке браузером. Нужны разрешение микрофона и безопасный контекст HTTPS либо допустимый локальный контекст. Запуск — по явному действию пользователя; распознанный текст остаётся видимым и редактируемым до значимого действия.",
+          "Браузерное распознавание может обращаться к сервису поставщика и не считается гарантированно автономным. В просмотренном коде язык сессии ru-RU. При отказе микрофона, отсутствии поддержки или сети сохраняется текстовый ввод.",
+          "Голосовой ответ сайта использует SpeechSynthesis. В просмотренной реализации выбирается локальный Microsoft Pavel; если нужного голоса нет, ответ остаётся текстовым. Это не универсальная гарантия озвучивания на каждом устройстве. Предусмотрены отключение и остановка воспроизведения.",
+          "Локальная ВЕСТА может использовать Vosk с установленной совместимой моделью без интернета. Windows SAPI зависит от локальной сборки и установленных голосов. Распознавание Vosk не требует Ollama, но наличие модуля не заменяет испытание микрофона на реальном ПК. На VDS тяжёлая голосовая модель в рамках паспорта не устанавливается."
+        ],
+        "diagram": "voice",
+        "note": "Голос не подтверждает личность и не обходит авторизацию. Произнесённая команда не разрешает автоматически публикацию, санкцию, удаление файла или платёж."
+      },
+      {
+        "title": "6.1. Самостоятельные Android- и iOS-системы",
+        "diagram": "native",
+        "paras": [
+          "Android — приоритетное отдельное приложение, а не оболочка страницы. Проектный стек: Kotlin и Jetpack Compose; общий авторизованный API сайта; собственные экраны входа, профиля, создания заявки, поиска и общения. Пользователи и заявки остаются в общей системе, без второй независимой базы реальных аккаунтов.",
+          "Голос Android: явное нажатие и разрешение RECORD_AUDIO → SpeechRecognizer → редактирование текста → подтверждение действия. Озвучивание — Android TextToSpeech с проверкой языка и установленного движка, а не Microsoft Pavel/Windows SAPI. Минимальную версию Android выбирают по целевым устройствам.",
+          "Для автономного распознавания сначала проверяют доступность on-device API и языка. EXTRA_PREFER_OFFLINE сам по себе не гарантирует работу без сети. Vosk может стать дополнительным встроенным модулем после испытания модели и ресурсов; многогигабайтные загрузки не выполняются без согласия.",
+          "iOS — отдельное планируемое приложение: Swift/SwiftUI, Speech и AVSpeechSynthesizer. Автономный режим зависит от поддерживаемого языка и устройства. Секреты сервиса не встраиваются в приложения; записи только локальных черновиков без сети не означают публикацию заявки. APK/AAB, iOS-сборка, подпись и испытания пока не подготовлены."
+        ],
+        "table": [
+          [
+            "Система",
+            "Голос и API",
+            "Состояние"
+          ],
+          [
+            "Android",
+            "SpeechRecognizer / TextToSpeech; общий API",
+            "Обязательный приоритет разработки"
+          ],
+          [
+            "iOS",
+            "Speech / AVSpeechSynthesizer; общий API",
+            "Самостоятельный следующий этап"
+          ],
+          [
+            "Мобильный браузер",
+            "Web Speech API",
+            "Дополнительный канал, не замена приложению"
+          ]
+        ],
+        "note": "Приёмка Android: реальный микрофон, отказ разрешений, русский язык, фон/возврат, отсутствие сервиса, потеря сети, защита токена, совместимость API и ручное подтверждение. На Android/iOS в этой работе испытания не выполнялись. Если локальный речевой движок недоступен, показывается текстовый ввод; сетевой режим распознавания требует отдельного понятного согласия."
+      },
+      {
+        "title": "7. Администрирование и модерация ВЕСТЫ",
+        "paras": [
+          "Раздел «Контроль ВЕСТА» входит в существующую админку. Режим 1 — наблюдение и журнал сигналов. Режим 2 — рекомендации, доказательства и проект меры. Режим 3 — подготовка действия, которое применяет уполномоченный администратор после явного подтверждения. По умолчанию — наблюдение.",
+          "Повышение режима не расширяет доступ к данным. ВЕСТА не получает общий административный токен. Предупреждение, временное ограничение и постоянный бан — отдельная классификация санкций, не три режима работы.",
+          "Решение записывает автора, время, основание и результат. Предусматриваются отмена и обжалование. Откат приложения не должен отключать уже действующие ограничения. Криптографическая цепочка аудита повышает обнаруживаемость изменений, но не является полной защитой от администратора БД без внешней контрольной точки."
+        ],
+        "table": [
+          [
+            "Роль",
+            "Разрешённая ответственность"
+          ],
+          [
+            "Оператор",
+            "Просмотр сигналов, передача случая"
+          ],
+          [
+            "Модератор",
+            "Проверка доказательств и предложение решения"
+          ],
+          [
+            "Администратор",
+            "Утверждение мер, отмена, правила и режим"
+          ],
+          [
+            "ВЕСТА",
+            "Анализ разрешённых данных и подготовка предложений"
+          ]
+        ],
+        "note": "Самостоятельная блокировка пользователя ИИ запрещена при любом режиме."
+      },
+      {
+        "title": "8. Данные, приватность и безопасность",
+        "paras": [
+          "Основные сущности: пользователь, профиль, заявка, отклик, выбор помощника, чат, сообщение, уведомление, контент, квота и аудит. Новые сущности ВЕСТЫ связываются с существующими пользователями; отдельная база фиктивных исполнителей не создаётся.",
+          "Контроли: HTTPS, серверные проверки сессии и ролей, проверка владельца объекта, минимальные права runtime-роли, валидация входа, ограничения запросов, идемпотентность значимых операций и защита от утечки неопубликованных записей. Численные лимиты задаются конфигурацией и контрактом конкретного API.",
+          "Секреты, пароли, JWT, исходные переписки и приватные дампы не входят в открытый паспорт или журнал ошибок. Чувствительные поля ВЕСТЫ в лабораторной реализации защищены шифрованием; ключи хранятся отдельно и включаются в приватный план восстановления. Это не означает шифрование всей БД на уровне диска.",
+          "Сроки хранения, удаление, резервирование и доступ к доказательствам определяются утверждённой политикой. Юридическое соответствие и защита персональных данных требуют отдельной проверки; этот документ их не сертифицирует."
+        ],
+        "note": "Сторонний текст, документ или сообщение не является административной командой. Извлечённая информация не должна расширять права помощника.",
+        "diagram": "security"
+      },
+      {
+        "title": "9. Эксплуатация, обновление и откат",
+        "paras": [
+          "Релиз закрепляет исходный commit, манифест файлов, версии зависимостей, образы и контрольные суммы. Перед запуском проверяется совместимость схемы чтением метаданных без DDL, DML, seed или автоматического repair. Команда запуска приложения не содержит скрытого alembic upgrade head.",
+          "Последняя переданная владельцем схема рабочего сайта — 0035_editorial. Рассмотренный кандидат ВЕСТЫ №30 требует 0036_vesta29. Несовместимость останавливает запуск. Новая схема применяется только после отдельного согласования, актуального бэкапа и репетиции на восстановленной изолированной БД.",
+          "Резервная копия включает PostgreSQL, загрузки/объектные файлы, конфигурацию, приватные ключи, данные ботов и текущие образы. Проверяются целостность, восстановление и копия вне VDS. Старые рабочие копии не удаляют до проверки новой.",
+          "Обновление выполняется по согласованному плану. Контролируются главная страница, API, вход, заявки, чат, Redis, PostgreSQL, Nginx и боты. При серьёзной регрессии возвращается совместимая программная версия. Откат БД не выполняется автоматически: он не должен терять новые данные или отменять санкции."
+        ],
+        "diagram": "release",
+        "note": "Подготовка паспорта не изменяет VDS, контейнеры, рабочие базы или локальную установку владельца."
+      },
+      {
+        "title": "10. Ресурсы, интеграции и проверки",
+        "paras": [
+          "Требования к CPU, RAM, диску и числу пользователей определяются измерением согласованной сборки под реальной нагрузкой. В паспорт не включены неподтверждённые обещания производительности или доступности. Большая модель ИИ и Vosk не являются обязательными зависимостями лёгкого серверного режима.",
+          "Карты, адреса и маршруты зависят от выбранных OSM/Nominatim/OSRM-сервисов, сети и их правил использования. Недоступность внешнего геосервиса должна давать понятную ошибку, а не выдуманный адрес. Историческая ошибка 502 не считается устранённой только по факту составления паспорта.",
+          "VK и MAX — существующие точки связи, работа которых ранее подтверждена владельцем. Общая цепочка «бот → ВЕСТА → заявка» требует самостоятельного сквозного испытания. Публичная ссылка Telegram не доказывает установленную интеграцию.",
+          "Исторический Windows-прогон Автотеста Catalog33 Fix3: 158 pytest PASS, 7 SKIP; с двумя проверками окружения — 160 PASS, 0 FAIL, 7 SKIP. SKIP означает «не проверено». Эти данные относятся к конкретному тестовому комплекту и не являются приёмкой текущего VDS, нагрузки, настоящего микрофона или внешних сервисов.",
+          "Плановые вводные эксплуатации без тяжёлой модели: сервер 30–120, резервное хранение 10–50, почта/домены/сервисы 5–60 USD/месяц; итого 45–230 USD/месяц без сопровождения. Это сценарий бюджета, не проверенные тарифы и не текущий счёт владельца. Сопровождение и GPU рассчитываются отдельно."
+        ],
+        "table": [
+          [
+            "Перед вводом в эксплуатацию",
+            "Подтверждение"
+          ],
+          [
+            "Безопасность заявок и ролей",
+            "Негативные API-тесты и прямой доступ"
+          ],
+          [
+            "Основные действия",
+            "Браузерные сценарии и реальные переходы"
+          ],
+          [
+            "Голос и мессенджеры",
+            "Физическое устройство и реальный обмен"
+          ],
+          [
+            "Данные и откат",
+            "Восстановление бэкапа и совместимость"
+          ],
+          [
+            "Нагрузка",
+            "Замеры согласованного окружения"
+          ]
+        ]
+      },
+      {
+        "title": "11. Предварительная стоимость в валюте",
+        "paras": [
+          "Оценка относится к воспроизведению функционально полной социальной платформы с нуля, а не к текущей рыночной цене сайта, уже понесённым расходам или готовности всех функций. Метод: предварительные трудозатраты 1 100–2 000 часов × условная ставка разработки 30–60 USD/час.",
+          "Итого: 33 000–120 000 USD до налогов и отдельного резерва. При исключительно расчётном соотношении 1 EUR = 1,10 USD это около 30 000–109 000 EUR. Это не биржевой курс на дату документа. В коммерческом предложении валютный пересчёт фиксируется заново.",
+          "Не включены: обучение собственной большой модели, GPU-инфраструктура, промышленная интеграция, закупка устройств, массовая проверка исполнителей, юридическая экспертиза, платные внешние API и продвижение. Наличие текущих исходников может уменьшить будущие трудозатраты; цена доработки определяется отдельно после аудита.",
+          "Отдельно для Android MVP: 400–800 часов × 30–60 USD = 12 000–48 000 USD. Сайт вместе с Android: 45 000–168 000 USD. Для следующего iOS-этапа: 360–720 часов = 10 800–43 200 USD дополнительно. Общий API переиспользуется; мобильные бюджеты не входят в табличную оценку сайта. Это планирование, не выполненные работы и не предложение подрядчика."
+        ],
+        "table": [
+          [
+            "Работы",
+            "Часы",
+            "USD: нижняя–верхняя оценка"
+          ],
+          [
+            "Анализ и архитектура",
+            "80–160",
+            "2,400–9,600"
+          ],
+          [
+            "Веб-интерфейс",
+            "160–320",
+            "4,800–19,200"
+          ],
+          [
+            "Backend, данные и безопасность",
+            "240–440",
+            "7,200–26,400"
+          ],
+          [
+            "Заявки, коммуникация и карты",
+            "180–320",
+            "5,400–19,200"
+          ],
+          [
+            "Админка, конструкторы и контент",
+            "160–280",
+            "4,800–16,800"
+          ],
+          [
+            "ВЕСТА, каталог и голосовая интеграция",
+            "140–260",
+            "4,200–15,600"
+          ],
+          [
+            "Проверки, релиз, бэкап и документация",
+            "140–220",
+            "4,200–13,200"
+          ],
+          [
+            "ИТОГО",
+            "1 100–2 000",
+            "33 000–120 000"
+          ]
+        ]
+      },
+      {
+        "title": "12. Комплектность и контроль целостности",
+        "paras": [
+          "В комплект паспорта входят русская и английская версии PDF и Markdown, исходник сборки, иллюстрации/схемы, перечень источников и результаты проверки документа. PDF допускает поиск текста и содержит активные ссылки. Блок-схемы являются редакционными схемами архитектуры, а не снимками действующей инфраструктуры.",
+          "Три утверждённых изображения главного баннера сохраняются. Контрольные суммы ниже — ранее переданные владельцем значения. Новая проверка файлов на VDS при подготовке паспорта не выполнялась."
+        ],
+        "assets": true,
+        "note": "Допуск к эксплуатации, подпись ответственного и дата приёмки заполняются только после фактического согласования. В этом экземпляре приёмка не заявлена."
+      }
+    ],
+    "diagram_labels": {
+      "architecture": [
+        [
+          "Веб-клиент",
+          "Android · проект",
+          "iOS · следующий этап"
+        ],
+        [
+          "HTTPS · Nginx",
+          "FastAPI · права и API"
+        ],
+        [
+          "PostgreSQL",
+          "Redis",
+          "Подключаемая ВЕСТА"
+        ]
+      ],
+      "request": [
+        "Черновик / голос",
+        "Правка и подтверждение",
+        "Модерация / правило поездки",
+        "Публикация → отклики",
+        "Выбор → работа → приёмка"
+      ],
+      "constructor": [
+        "Поля и ресурсы",
+        "Предпросмотр",
+        "Сохранение версии",
+        "Проверка и размещение"
+      ],
+      "voice": [
+        [
+          "Сайт: браузерный голос",
+          "Нажатие → разрешение → распознавание",
+          "Текст → правка → подтверждение"
+        ],
+        [
+          "Локально: Vosk / Windows",
+          "Установленная модель и микрофон",
+          "Локальное распознавание → текст"
+        ]
+      ],
+      "release": [
+        "Закреплённый релиз",
+        "Бэкап + восстановление",
+        "Проверка схемы чтением",
+        "Разрешённое обновление",
+        "Контроль → совместимый откат"
+      ],
+      "security": [
+        "Вход и роль",
+        "Право на объект",
+        "Проверка данных",
+        "Операция и аудит"
+      ],
+      "native": [
+        "Android · микрофон",
+        "Распознавание на устройстве",
+        "Редактируемый текст",
+        "Согласие → общий API",
+        "Ответ → Android TTS"
+      ]
+    },
+    "links_title": "Ссылки проекта",
+    "links_labels": [
+      "Сайт",
+      "Исходники платформы",
+      "Книги",
+      "ВКонтакте",
+      "MAX"
+    ],
+    "image_caption": "Художественная иллюстрация ИИ; не техническая схема и не подтверждение внедрения.",
+    "lang": "RU",
+    "mobile_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition",
+      "https://webkit.org/blog/11648/new-webkit-features-in-safari-14-1/",
+      "https://developer.android.com/reference/android/speech/SpeechRecognizer",
+      "https://developer.android.com/reference/android/speech/RecognizerIntent",
+      "https://developer.apple.com/documentation/Speech/SFSpeechRecognizer/supportsOnDeviceRecognition"
+    ]
+  },
+  "EN": {
+    "title": "VMESTE Website Technical Passport",
+    "subtitle": "Functionally complete platform configuration",
+    "tag": "en-GB",
+    "review": "DESIGN EDITION · FOR APPROVAL",
+    "identity": [
+      "Document: TP-VMESTE-2026.11 · revision 1.0",
+      "Prepared: 15 November 2026",
+      "System: https://xn--b1aga0a0ag.site/",
+      "Document language: English"
+    ],
+    "scope": "This passport describes the complete system proposed for approval: the website, accounts, requests, communication, reference search, tools and VESTA. It presents a unified operating model. It does not establish that every component has been deployed, accepted or tested on the live server. A separate Android application is included as the priority for design and later development. An iOS application is a distinct subsequent stage. This document does not claim completed mobile builds.",
+    "cover_note": "AI illustrations express the project concept; they are not photographs of installed equipment. This document is not a commissioning certificate, compliance certification or availability guarantee.",
+    "sections": [
+      {
+        "title": "1. Purpose and system scope",
+        "paras": [
+          "VMESTE connects customers, providers and administrators in one digital environment. A user describes a task, finds offers, communicates and confirms the outcome. AI helps prepare information; it does not replace the parties or their consent.",
+          "Scope: responsive web interface; application API; database; user accounts; service requests and journeys; responses, private chat and notifications; maps; articles; tools; administration; and optional VESTA integration. The local VESTA and TASHI applications are separate products, not mandatory server components."
+        ],
+        "table": [
+          [
+            "Area",
+            "Purpose",
+            "Evidence / status"
+          ],
+          [
+            "Users and requests",
+            "Registration, profiles, responses, chat",
+            "Baseline modules present in website source"
+          ],
+          [
+            "Content and builders",
+            "Articles, banners, forms and tools",
+            "Actual source components; release acceptance is separate"
+          ],
+          [
+            "VESTA and catalogue",
+            "Drafts, matching, supervision",
+            "Laboratory development; deployment unconfirmed"
+          ],
+          [
+            "Messengers",
+            "VK and MAX contact channels",
+            "Operation previously confirmed by owner; not retested today"
+          ],
+          [
+            "Local voice and AI",
+            "Vosk, Ollama, Windows voice",
+            "Depend on a separate local build and components"
+          ],
+          [
+            "Android / iOS",
+            "Separate clients of the shared API",
+            "Android is the development priority; iOS is a later stage"
+          ]
+        ],
+        "note": "Implementation status and production readiness are different properties. Four publication languages do not mean that the website or speech recognition already supports four languages."
+      },
+      {
+        "title": "2. Architecture and software components",
+        "paras": [
+          "The React/TypeScript web client accesses FastAPI through an HTTPS Nginx reverse proxy. PostgreSQL stores application data. Redis supports the service operations defined in the code. Uploads use the configured filesystem or compatible object storage.",
+          "Containers separate components. VESTA uses restricted website interfaces; a separate service is a target deployment option, not confirmation of a running container. Any industrial assistant is a separate deployment and must not obtain enterprise data through the public website."
+        ],
+        "diagram": "architecture",
+        "table": [
+          [
+            "Component",
+            "Technology / purpose"
+          ],
+          [
+            "Client",
+            "React, TypeScript, browser interface"
+          ],
+          [
+            "Application",
+            "Python 3.12, FastAPI, Uvicorn"
+          ],
+          [
+            "Data",
+            "PostgreSQL 16, SQLAlchemy, Alembic"
+          ],
+          [
+            "Infrastructure",
+            "Docker Compose, Nginx, Redis"
+          ],
+          [
+            "Geographic services",
+            "OSM map; configured geocoding and routing services"
+          ]
+        ],
+        "note": "Dependency versions are not permanent requirements: each approved release pins its exact composition in a manifest."
+      },
+      {
+        "title": "3. Request lifecycle",
+        "paras": [
+          "Draft → author review → submission → moderation → public request → provider responses → helper selection → work → outcome confirmation. Rejection and cancellation are separate outcomes. The server checks valid transitions and participant permissions.",
+          "An ordinary unapproved request must be inaccessible to outsiders through listings, direct identifiers and new VESTA APIs alike. Authentication and ownership checks run on the backend. This scenario is a blocking acceptance criterion.",
+          "Journeys have a separate publication policy. In the inspected source version, automatic approval is tied to the journey category rather than a separate urgency check. The final policy requires agreement and verification before release.",
+          "FREE in the inspected code provides 5 responses with no calendar expiry and no automatic reset. It does not mean unlimited responses or five concurrently open requests. Paid-access duration is distinct from request lifetime; completing work does not itself restore the free quota."
+        ],
+        "diagram": "request",
+        "note": "Subscription expiry must not silently change an already agreed job. Access to existing conversations and completion actions requires separate tests."
+      },
+      {
+        "title": "4. Builders and practical tools",
+        "paras": [
+          "The administrative banner builder provides layout settings, background and logo assets, preview, project saving, image export and publication to an available placement. Project versions and idempotency keys protect against conflicts and retries. This describes the actual BannerConstructor component, not a newly promised editor.",
+          "The article and document editor belongs to the existing administration interface. The request builder is a structured form with category, description, location and other fields. VESTA prepares wording; the user edits and submits it.",
+          "The tools catalogue groups existing calculation, home, transport, garden and other sections. A category does not establish equal readiness of every tool. The heating simulator displays calculated values, not actual sensor readings."
+        ],
+        "diagram": "constructor",
+        "screen": "tools",
+        "screen_caption": "Actual tools-catalogue interface from a local review build. This is not the banner-builder screen and does not prove deployment of this version to the live website.",
+        "note": "A general visual builder for arbitrary website pages is not established by the inspected materials and is not listed as a completed capability."
+      },
+      {
+        "title": "5. VESTA and provider search",
+        "paras": [
+          "Target flow: problem description → editable request draft → identification of service and locality → recommendations. Ordinary deterministic search does not require a large language model. Ollama is a separate dependency for local AI features, not a prerequisite for website availability.",
+          "The reference catalogue contains 81 source listings: 56 draft and 25 hold. Identifiers, statuses and sources are preserved. Repeated imports must not create duplicates or turn listings into user accounts. The source catalogue contains no confirmed registered providers.",
+          "Hold records are excluded from recommendations. The service and locality must match verified data. Cross-locality recommendations require confirmed travel conditions; none are confirmed in the reviewed dataset. An empty result is valid and must not be replaced with an invented recommendation.",
+          "Required warning: “Reference listing. Participation in VMESTE and availability are unconfirmed.” Linking a listing to a real account requires registration and independent authority verification; it does not automatically verify qualifications, price or availability."
+        ],
+        "screen": "vesta",
+        "screen_caption": "Actual local VESTA interface from a review build. The capture does not establish a real microphone or model test, or deployment to the VDS."
+      },
+      {
+        "title": "6. Voice capabilities",
+        "paras": [
+          "Website speech input uses SpeechRecognition/webkitSpeechRecognition where supported by the browser. It requires microphone permission and a secure HTTPS context or a permitted local context. The user explicitly starts capture; recognised text remains visible and editable before a consequential action.",
+          "Browser recognition may use a vendor service and is not guaranteed offline. The inspected implementation sets session language to ru-RU. Text input remains available if the microphone, browser support or network is unavailable.",
+          "Website voice output uses SpeechSynthesis. The inspected implementation selects local Microsoft Pavel; without the required voice, the answer stays textual. This is not a promise of speech output on every device. Output can be disabled and stopped.",
+          "Local VESTA may use Vosk with an installed compatible model for offline recognition. Windows SAPI depends on the local build and installed voices. Vosk recognition does not require Ollama, but a module alone does not replace physical microphone testing. This passport does not install a heavy voice model on the VDS."
+        ],
+        "diagram": "voice",
+        "note": "Voice is not proof of identity and does not bypass authorisation. A spoken command does not automatically authorise publication, sanctions, file deletion or payment."
+      },
+      {
+        "title": "6.1. Independent Android and iOS systems",
+        "diagram": "native",
+        "paras": [
+          "Android is the priority standalone application, not a wrapped webpage. Proposed stack: Kotlin and Jetpack Compose; the website’s shared authorised API; dedicated login, profile, request creation, search and communication screens. Users and requests remain in one system, without a second independent real-account database.",
+          "Android voice: explicit tap and RECORD_AUDIO permission → SpeechRecognizer → editable text → action confirmation. Output uses Android TextToSpeech with checks for language and installed engine, not Microsoft Pavel or Windows SAPI. The minimum Android version follows the target-device set.",
+          "Offline recognition first checks on-device API and language availability. EXTRA_PREFER_OFFLINE alone is not an offline guarantee. Vosk may become an optional embedded module after model and resource testing; multi-gigabyte downloads require consent.",
+          "iOS is a separate planned application: Swift/SwiftUI, Speech and AVSpeechSynthesizer. Offline support depends on language and device. Service secrets are not embedded in applications; saving local drafts offline is not request publication. APK/AAB, iOS builds, signing and device tests have not been prepared."
+        ],
+        "table": [
+          [
+            "System",
+            "Voice and API",
+            "Status"
+          ],
+          [
+            "Android",
+            "SpeechRecognizer / TextToSpeech; shared API",
+            "Required development priority"
+          ],
+          [
+            "iOS",
+            "Speech / AVSpeechSynthesizer; shared API",
+            "Separate subsequent stage"
+          ],
+          [
+            "Mobile browser",
+            "Web Speech API",
+            "Additional channel, not a substitute application"
+          ]
+        ],
+        "note": "Android acceptance covers a real microphone, denied permission, Russian speech, background/return, missing service, connection loss, token protection, API compatibility and manual confirmation. No Android/iOS device testing was performed here. If a local speech engine is unavailable, offer text input; network recognition requires separate, understandable consent."
+      },
+      {
+        "title": "7. Administration and VESTA moderation",
+        "paras": [
+          "VESTA Control belongs to the existing administration interface. Mode 1 is observation and a signal log. Mode 2 adds recommendations, evidence and proposed measures. Mode 3 prepares an action that an authorised administrator applies only after explicit confirmation. Observation is the default.",
+          "A higher mode does not expand data access. VESTA receives no general administrative token. A warning, temporary restriction and permanent ban are separate sanction types, not the three operating modes.",
+          "A decision records its actor, time, basis and outcome. Reversal and appeals are provided for. Application rollback must not disable existing restrictions. A cryptographic audit chain improves detection of changes but is not complete protection against a database administrator without an external checkpoint."
+        ],
+        "table": [
+          [
+            "Role",
+            "Authorised responsibility"
+          ],
+          [
+            "Operator",
+            "Review signals and refer cases"
+          ],
+          [
+            "Moderator",
+            "Examine evidence and propose decisions"
+          ],
+          [
+            "Administrator",
+            "Approve/revoke measures, manage rules and mode"
+          ],
+          [
+            "VESTA",
+            "Analyse permitted information and prepare proposals"
+          ]
+        ],
+        "note": "Autonomous AI blocking of a user is prohibited in every mode."
+      },
+      {
+        "title": "8. Data, privacy and security",
+        "paras": [
+          "Core entities include user, profile, request, response, helper selection, chat, message, notification, content, quota and audit record. New VESTA entities link to existing users; no separate database of fictitious providers is created.",
+          "Controls include HTTPS, server-side session and role checks, object ownership checks, least-privilege runtime access, input validation, request limits, idempotency for significant operations and protection of unpublished records. Numerical limits belong to configuration and individual API contracts.",
+          "Secrets, passwords, JWTs, raw conversations and private dumps are excluded from this public passport and error reports. Sensitive VESTA fields in the laboratory implementation are encrypted; keys are held separately and included in the private recovery plan. This does not imply whole-database disk encryption.",
+          "Retention, deletion, backup and evidence access follow an approved policy. Legal and personal-data compliance require separate assessment; this document does not certify them."
+        ],
+        "note": "Third-party text, documents and messages are not administrative commands. Retrieved information must not increase assistant privileges.",
+        "diagram": "security"
+      },
+      {
+        "title": "9. Operations, upgrades and rollback",
+        "paras": [
+          "A release pins a source commit, file manifest, dependencies, images and checksums. Startup verifies schema compatibility through metadata reads without DDL, DML, seeding or automatic repair. The application startup command contains no hidden alembic upgrade head.",
+          "The last owner-supplied live schema is 0035_editorial. The inspected VESTA 30 candidate requires 0036_vesta29. A mismatch stops startup. Schema changes require separate approval, a current backup and rehearsal against an isolated restored database.",
+          "Backups include PostgreSQL, uploads/object files, configuration, private keys, bot data and current images. Integrity, restoration and an off-server copy must be verified. Older working backups are retained until the replacement has been checked.",
+          "Upgrades follow an approved plan. Checks cover the homepage, API, login, requests, chat, Redis, PostgreSQL, Nginx and bots. A serious regression triggers return to a compatible application version. Database rollback is not automatic: it must not lose new records or cancel sanctions."
+        ],
+        "diagram": "release",
+        "note": "Preparing this passport does not modify the VDS, containers, live databases or the owner’s local installation."
+      },
+      {
+        "title": "10. Resources, integrations and verification",
+        "paras": [
+          "CPU, RAM, storage and user-capacity requirements follow measurements of an agreed build under representative load. This passport makes no unverified throughput or availability promises. A large AI model and Vosk are not mandatory dependencies of the lightweight server mode.",
+          "Maps, addresses and routes depend on the chosen OSM/Nominatim/OSRM services, connectivity and their usage policies. An unavailable geoservice should produce a clear error rather than an invented address. Writing this passport does not establish that the historical 502 problem has been fixed.",
+          "VK and MAX are existing contact channels whose operation the owner previously confirmed. The complete bot → VESTA → request flow needs its own end-to-end test. A public Telegram link is not proof of an installed integration.",
+          "Historical owner-PC results for AutoTest Catalog33 Fix3: 158 pytest PASS and 7 SKIP; including two environment checks, 160 PASS, 0 FAIL and 7 SKIP. SKIP means untested. These results concern a specific test package, not acceptance of the current VDS, its load capacity, a real microphone or external services.",
+          "Illustrative monthly operating inputs without a heavy model: server USD 30–120, backup storage USD 10–50, mail/domains/services USD 5–60; total USD 45–230 before support. These are budget assumptions, not verified vendor quotes or the owner’s current bill. Support and GPU costs are separate."
+        ],
+        "table": [
+          [
+            "Before commissioning",
+            "Required evidence"
+          ],
+          [
+            "Request and role security",
+            "Negative API and direct-access tests"
+          ],
+          [
+            "Core actions",
+            "Browser scenarios and actual navigation"
+          ],
+          [
+            "Voice and messaging",
+            "Physical-device tests and actual message exchange"
+          ],
+          [
+            "Data and rollback",
+            "Backup restoration and compatibility"
+          ],
+          [
+            "Capacity",
+            "Measurements in the approved environment"
+          ]
+        ]
+      },
+      {
+        "title": "11. Indicative cost in foreign currency",
+        "paras": [
+          "This estimate concerns recreating the functionally complete social platform from scratch. It is not the website’s current market value, historical spending or evidence that every function is ready. Method: preliminary effort of 1,100–2,000 hours × an assumed development rate of USD 30–60 per hour.",
+          "Total: USD 33,000–120,000 before taxes and a separate contingency. At a purely illustrative conversion of EUR 1 = USD 1.10, this is approximately EUR 30,000–109,000. This is not a market exchange-rate quotation for the document date. A commercial offer must set its own conversion basis.",
+          "Excluded: training a proprietary large model, GPU infrastructure, industrial integration, hardware purchasing, large-scale provider verification, legal review, paid external APIs and marketing. Existing source code may reduce future effort; the price of further development needs a separate audit.",
+          "Separate Android MVP budget: 400–800 hours × USD 30–60 = USD 12,000–48,000. Website plus Android: USD 45,000–168,000. A later iOS stage adds 360–720 hours = USD 10,800–43,200. The shared API is reused; mobile budgets are not included in the website table. These are planning assumptions, not completed work or a contractor quotation."
+        ],
+        "table": [
+          [
+            "Work package",
+            "Hours",
+            "USD: low–high estimate"
+          ],
+          [
+            "Discovery / architecture",
+            "80–160",
+            "2,400–9,600"
+          ],
+          [
+            "Web interface",
+            "160–320",
+            "4,800–19,200"
+          ],
+          [
+            "Backend / data / security",
+            "240–440",
+            "7,200–26,400"
+          ],
+          [
+            "Requests / communication / maps",
+            "180–320",
+            "5,400–19,200"
+          ],
+          [
+            "Administration / builders / content",
+            "160–280",
+            "4,800–16,800"
+          ],
+          [
+            "VESTA / catalogue / voice integration",
+            "140–260",
+            "4,200–15,600"
+          ],
+          [
+            "QA / release / backup / documentation",
+            "140–220",
+            "4,200–13,200"
+          ],
+          [
+            "TOTAL",
+            "1,100–2,000",
+            "33,000–120,000"
+          ]
+        ]
+      },
+      {
+        "title": "12. Deliverables and integrity",
+        "paras": [
+          "The passport package contains Russian and English PDF and Markdown editions, build source, illustrations/diagrams, a source register and document-validation results. PDFs have searchable text and active links. Block diagrams are editorial architecture diagrams, not captures of running infrastructure.",
+          "The three approved homepage illustrations are retained. The checksums below were previously supplied by the owner. Preparing this passport did not include a fresh VDS file check."
+        ],
+        "assets": true,
+        "note": "Commissioning approval, responsible-party signature and acceptance date may be completed only after actual agreement. This edition does not claim acceptance."
+      }
+    ],
+    "diagram_labels": {
+      "architecture": [
+        [
+          "Web client",
+          "Android · planned",
+          "iOS · later stage"
+        ],
+        [
+          "HTTPS · Nginx",
+          "FastAPI · access and API"
+        ],
+        [
+          "PostgreSQL",
+          "Redis",
+          "Optional VESTA"
+        ]
+      ],
+      "request": [
+        "Draft / voice input",
+        "Edit and confirm",
+        "Moderation / journey policy",
+        "Publication → responses",
+        "Selection → work → acceptance"
+      ],
+      "constructor": [
+        "Fields and assets",
+        "Preview",
+        "Save version",
+        "Review and publish"
+      ],
+      "voice": [
+        [
+          "Website: browser speech",
+          "Click → permission → recognition",
+          "Text → edit → confirm"
+        ],
+        [
+          "Local: Vosk / Windows",
+          "Installed model and microphone",
+          "Local recognition → text"
+        ]
+      ],
+      "release": [
+        "Pinned release",
+        "Backup + restore rehearsal",
+        "Read-only schema check",
+        "Approved upgrade",
+        "Verification → compatible rollback"
+      ],
+      "security": [
+        "Session and role",
+        "Object permission",
+        "Input validation",
+        "Operation and audit"
+      ],
+      "native": [
+        "Android · microphone",
+        "On-device recognition",
+        "Editable text",
+        "Consent → shared API",
+        "Reply → Android TTS"
+      ]
+    },
+    "links_title": "Project links",
+    "links_labels": [
+      "Website",
+      "Platform source",
+      "Books",
+      "VK",
+      "MAX"
+    ],
+    "image_caption": "AI-generated artistic illustration; not a technical diagram or proof of deployment.",
+    "lang": "EN",
+    "mobile_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition",
+      "https://webkit.org/blog/11648/new-webkit-features-in-safari-14-1/",
+      "https://developer.android.com/reference/android/speech/SpeechRecognizer",
+      "https://developer.android.com/reference/android/speech/RecognizerIntent",
+      "https://developer.apple.com/documentation/Speech/SFSpeechRecognizer/supportsOnDeviceRecognition"
+    ]
+  }
+}

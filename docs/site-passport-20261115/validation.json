@@ -1,0 +1,584 @@
+{
+  "scope": "document generation checks only; not a website, device or security acceptance test",
+  "summary": {
+    "PASS": 115,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "language": "shared",
+      "check": "website effort and cost arithmetic",
+      "result": "PASS"
+    },
+    {
+      "language": "shared",
+      "check": "separate mobile costs and combined budget arithmetic",
+      "result": "PASS"
+    },
+    {
+      "language": "shared",
+      "check": "explicit planning and currency assumptions",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "table cells preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "explicit target scope",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "document language",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "foreign alphabet",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "exact project links",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "three hero checksums",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "layout and text bounds",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "no near empty page",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "bounded page count",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "bookmarks present",
+      "result": "PASS"
+    },
+    {
+      "language": "RU",
+      "check": "seven diagrams in editable source",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "source paragraph preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "table cells preserved",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "explicit target scope",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "document language",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "foreign alphabet",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "exact project links",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "three hero checksums",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "layout and text bounds",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "no near empty page",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "bounded page count",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "bookmarks present",
+      "result": "PASS"
+    },
+    {
+      "language": "EN",
+      "check": "seven diagrams in editable source",
+      "result": "PASS"
+    }
+  ]
+}

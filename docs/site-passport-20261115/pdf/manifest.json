@@ -1,0 +1,19 @@
+{
+  "status": "design edition; no commissioning or deployment claimed",
+  "files": [
+    {
+      "language": "RU",
+      "file": "VMESTE_Technical_Passport_RU_REVIEW.pdf",
+      "pages": 15,
+      "bytes": 2171193,
+      "sha256": "da2cb22fc3c89f692023fb6d8d2346a423cc140952b9c1e2c8fa21a7b574b8de"
+    },
+    {
+      "language": "EN",
+      "file": "VMESTE_Technical_Passport_EN_REVIEW.pdf",
+      "pages": 15,
+      "bytes": 2127448,
+      "sha256": "03fba9d1dd1fcdc10ddc49ab29cb5f064c0cb9394d464b7aa5e1ab406a35d064"
+    }
+  ]
+}
